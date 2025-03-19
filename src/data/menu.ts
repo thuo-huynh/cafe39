@@ -118,7 +118,7 @@ export const products: Product[] = [
     id: "milk-tea-1",
     title: "milk-tea-1.title",
     description: "milk-tea-1.description",
-    image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
+    image: "/images/milk-tea/truyen-thong.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -129,7 +129,7 @@ export const products: Product[] = [
     id: "milk-tea-2",
     title: "milk-tea-2.title",
     description: "milk-tea-2.description",
-    image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
+    image: "/images/milk-tea/green-tea.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -140,7 +140,7 @@ export const products: Product[] = [
     id: "milk-tea-3",
     title: "milk-tea-3.title",
     description: "milk-tea-3.description",
-    image: "/images/juice/e4e298580092546276f9bddbe04cdb23.jpg",
+    image: "/images/milk-tea/red-tea.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -151,7 +151,7 @@ export const products: Product[] = [
     id: "milk-tea-4",
     title: "milk-tea-4.title",
     description: "milk-tea-4.description",
-    image: "/images/juice/864e94ccd30286832c1241ad193ca5a5.jpg",
+    image: "/images/milk-tea/taro.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -162,7 +162,7 @@ export const products: Product[] = [
     id: "milk-tea-5",
     title: "milk-tea-5.title",
     description: "milk-tea-5.description",
-    image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
+    image: "/images/milk-tea/gao-rang.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -173,7 +173,7 @@ export const products: Product[] = [
     id: "milk-tea-6",
     title: "milk-tea-6.title",
     description: "milk-tea-6.description",
-    image: "/images/coffee/928ba7c161567dfae97b9f3c8b9cd55d.jpg",
+    image: "/images/milk-tea/tra-xanh.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -184,7 +184,7 @@ export const products: Product[] = [
     id: "milk-tea-7",
     title: "milk-tea-7.title",
     description: "milk-tea-7.description",
-    image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
+    image: "/images/milk-tea/chocolate.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -195,7 +195,7 @@ export const products: Product[] = [
     id: "milk-tea-8",
     title: "milk-tea-8.title",
     description: "milk-tea-8.description",
-    image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
+    image: "/images/milk-tea/dau.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -206,18 +206,7 @@ export const products: Product[] = [
     id: "milk-tea-9",
     title: "milk-tea-9.title",
     description: "milk-tea-9.description",
-    image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
-    price: {
-      medium: 20000,
-      large: 25000,
-    },
-    category: "milk-tea",
-  },
-  {
-    id: "milk-tea-10",
-    title: "milk-tea-10.title",
-    description: "milk-tea-10.description",
-    image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
+    image: "/images/milk-tea/nhai.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -230,7 +219,7 @@ export const products: Product[] = [
     id: "must-try-1",
     title: "must-try-1.title",
     description: "must-try-1.description",
-    image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
+    image: "/images/must-try/avocado.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -241,7 +230,7 @@ export const products: Product[] = [
     id: "must-try-2",
     title: "must-try-2.title",
     description: "must-try-2.description",
-    image: "/images/coffee/928ba7c161567dfae97b9f3c8b9cd55d.jpg",
+    image: "/images/must-try/mango.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -252,7 +241,7 @@ export const products: Product[] = [
     id: "must-try-3",
     title: "must-try-3.title",
     description: "must-try-3.description",
-    image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
+    image: "/images/must-try/milo-dam.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -263,7 +252,7 @@ export const products: Product[] = [
     id: "must-try-4",
     title: "must-try-4.title",
     description: "must-try-4.description",
-    image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
+    image: "/images/must-try/da-me.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -274,7 +263,7 @@ export const products: Product[] = [
     id: "must-try-5",
     title: "must-try-5.title",
     description: "must-try-5.description",
-    image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
+    image: "/images/must-try/nha-dam.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -285,7 +274,7 @@ export const products: Product[] = [
     id: "must-try-6",
     title: "must-try-6.title",
     description: "must-try-6.description",
-    image: "/images/juice/e4e298580092546276f9bddbe04cdb23.jpg",
+    image: "/images/must-try/matcha.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -377,7 +366,7 @@ export const products: Product[] = [
     id: "juices-1",
     title: "juices-1.title",
     description: "juices-1.description",
-    image: "/images/coffee/928ba7c161567dfae97b9f3c8b9cd55d.jpg",
+    image: "/images/juice/dua.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -388,7 +377,7 @@ export const products: Product[] = [
     id: "juices-2",
     title: "juices-2.title",
     description: "juices-2.description",
-    image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
+    image: "/images/juice/cam.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -399,7 +388,7 @@ export const products: Product[] = [
     id: "juices-3",
     title: "juices-3.title",
     description: "juices-3.description",
-    image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
+    image: "/images/juice/dua-hau.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -410,7 +399,7 @@ export const products: Product[] = [
     id: "juices-4",
     title: "juices-4.title",
     description: "juices-4.description",
-    image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
+    image: "/images/juice/tay.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -421,7 +410,7 @@ export const products: Product[] = [
     id: "juices-5",
     title: "juices-5.title",
     description: "juices-5.description",
-    image: "/images/juice/e4e298580092546276f9bddbe04cdb23.jpg",
+    image: "/images/juice/rau-ma.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -432,7 +421,7 @@ export const products: Product[] = [
     id: "juices-6",
     title: "juices-6.title",
     description: "juices-6.description",
-    image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
+    image: "/images/juice/day.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -443,18 +432,7 @@ export const products: Product[] = [
     id: "juices-7",
     title: "juices-7.title",
     description: "juices-7.description",
-    image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
-    price: {
-      medium: 15000,
-      large: 20000,
-    },
-    category: "juices",
-  },
-  {
-    id: "juices-8",
-    title: "juices-8.title",
-    description: "juices-8.description",
-    image: "/images/coffee/cc32481f44aedc6161f4514aa51e86ed.jpg",
+    image: "/images/juice/chanh.jpg",
     price: {
       medium: 15000,
       large: 20000,

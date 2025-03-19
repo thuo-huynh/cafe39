@@ -40,8 +40,8 @@
       "description": "Wonderful combination of coffee and fresh coconut milk, creating a sweet, creamy and refreshing flavor."
     },
     "coffee-5": {
-      "title": "Butter Coffee",
-      "description": "A special coffee with soft, creamy butter cream on top, perfectly combined with the bitterness of coffee."
+      "title": "Avocado Coffee",
+      "description": "A special coffee with soft, creamy avocado cream on top, perfectly combined with the bitterness of coffee."
     },
     "coffee-6": {
       "title": "Coffee extra milk",
@@ -84,12 +84,8 @@
       "description": "Sweet taste of strawberries combined with creamy milk tea, creating a delicious drink with eye-catching colors."
     },
     "milk-tea-9": {
-      "title": "Pandan Milk Tea",
-      "description": "Distinctive pandan flavor combined with milk tea creates a refreshing drink, perfect for cooling down."
-    },
-    "milk-tea-10": {
-      "title": "Chewing Milk Tea",
-      "description": "Milk tea with toppings like pearls, jelly... creating an interesting drink and chew experience."
+      "title": "Jasmine Milk Tea",
+      "description": "Milk tea with jasmine tea, creating a fragrant and refreshing drink."
     },
     "must-try-1": {
       "title": "Avocado Smoothie",
@@ -104,8 +100,8 @@
       "description": "Familiar drink with distinctive Milo chocolate malt flavor, combined with crushed ice for refreshment."
     },
     "must-try-4": {
-      "title": "Tamarind Chestnut Ice",
-      "description": "Sweet and sour taste of tamarind, combined with chewy chestnuts, creating a perfect thirst-quenching drink."
+      "title": "Tamarind Ice & Arenga Pinnata",
+      "description": "Sweet and sour taste of tamarind, combined with chewy arenga pinnata, creating a perfect thirst-quenching drink."
     },
     "must-try-5": {
       "title": "Aloe Vera Chia Seeds",
@@ -170,10 +166,6 @@
     "juices-7": {
       "title": "Lemon Juice",
       "description": "Classic refreshing drink with fresh lemon's cool and sour taste."
-    },
-    "juices-8": {
-      "title": "Salted Lemon Juice",
-      "description": "Harmonious combination of lemon sourness and salt, creating an effective thirst-quenching and hydrating drink."
     },
     "yogurt-1": {
       "title": "Fruit Yogurt",

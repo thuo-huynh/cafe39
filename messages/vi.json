@@ -84,12 +84,8 @@
       "description": "Vị ngọt thanh của dâu tây kết hợp với trà sữa béo ngậy, tạo nên thức uống thơm ngon, màu sắc bắt mắt."
     },
     "milk-tea-9": {
-      "title": "Trà sữa sâm dứa",
-      "description": "Hương vị đặc trưng của sâm dứa kết hợp với trà sữa tạo nên thức uống thơm mát, giải nhiệt hiệu quả."
-    },
-    "milk-tea-10": {
-      "title": "Trà sữa nhai",
-      "description": "Trà sữa với các loại topping như trân châu, thạch... tạo nên trải nghiệm vừa uống vừa nhai thú vị."
+      "title": "Trà sữa nhài",
+      "description": "Trà sữa với trà nhài, tạo nên thức uống thơm ngát và thanh mát, giải nhiệt hiệu quả."
     },
     "must-try-1": {
       "title": "Sinh tố bơ",
@@ -104,8 +100,8 @@
       "description": "Thức uống quen thuộc với hương vị chocolate malt đặc trưng của Milo, kết hợp với đá dằm mát lạnh."
     },
     "must-try-4": {
-      "title": "Đá me hạt dẻ",
-      "description": "Vị chua ngọt của me, kết hợp với hạt dẻ dẻo dai, tạo nên thức uống giải khát tuyệt vời."
+      "title": "Đá me hạt đác",
+      "description": "Vị chua ngọt của me, kết hợp với hạt đác dẻo dai, tạo nên thức uống giải khát tuyệt vời."
     },
     "must-try-5": {
       "title": "Nha đam hạt chia",
@@ -171,10 +167,7 @@
       "title": "Nước chanh",
       "description": "Thức uống giải khát cổ điển với vị chua thanh mát của chanh tươi."
     },
-    "juices-8": {
-      "title": "Nước chanh muối",
-      "description": "Sự kết hợp hài hòa giữa vị chua của chanh và vị mặn của muối, tạo nên thức uống giải khát và bù nước hiệu quả."
-    },
+
     "yogurt-1": {
       "title": "Sữa chua trái cây",
       "description": "Sữa chua tươi mát kết hợp với nhiều loại trái cây tươi, tạo nên hương vị thơm ngon và bổ dưỡng."
