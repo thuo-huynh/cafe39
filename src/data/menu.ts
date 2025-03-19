@@ -3,33 +3,33 @@ import { Category, Product } from "@/types";
 export const categories: Category[] = [
   {
     id: "coffee",
-    name: "Cà phê",
+    name: "coffee.name",
     slug: "coffee",
   },
   {
     id: "milk-tea",
-    name: "Trà sữa",
+    name: "milk-tea.name",
     slug: "milk-tea",
   },
   {
     id: "must-try",
-    name: "Đặc biệt",
+    name: "must-try.name",
     slug: "must-try",
   },
   {
-    id: "tea",
-    name: "Trà",
-    slug: "tea",
-  },
-  {
     id: "juices",
-    name: "Nước ép",
+    name: "juices.name",
     slug: "juices",
   },
   {
     id: "yogurt",
-    name: "Sữa chua",
+    name: "yogurt.name",
     slug: "yogurt",
+  },
+  {
+    id: "tea",
+    name: "tea.name",
+    slug: "tea",
   },
 ];
 
@@ -37,10 +37,9 @@ export const products: Product[] = [
   // Coffee
   {
     id: "coffee-1",
-    title: "Cà phê đen sài gòn",
-    description:
-      "Hương vị đậm đà của cà phê nguyên chất với độ đắng vừa phải, thưởng thức buổi sáng tuyệt vời.",
-    image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
+    title: "coffee-1.title",
+    description: "coffee-1.description",
+    image: "/images/coffee/cafe-den.jpg",
     price: {
       medium: 20000,
       large: null,
@@ -49,10 +48,9 @@ export const products: Product[] = [
   },
   {
     id: "coffee-2",
-    title: "Cà phê sữa sài gòn",
-    description:
-      "Sự kết hợp hoàn hảo giữa cà phê đậm đà và sữa đặc béo ngậy, tạo nên hương vị hài hòa, thơm ngon.",
-    image: "/images/coffee/cc32481f44aedc6161f4514aa51e86ed.jpg",
+    title: "coffee-2.title",
+    description: "coffee-2.description",
+    image: "/images/coffee/cafe-sua.jpg",
     price: {
       medium: 20000,
       large: null,
@@ -61,10 +59,9 @@ export const products: Product[] = [
   },
   {
     id: "coffee-3",
-    title: "Cà phê muối",
-    description:
-      "Vị cà phê thơm nồng kết hợp với một chút muối biển, tạo nên hương vị độc đáo, làm giảm vị đắng và tăng độ thơm ngon.",
-    image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
+    title: "coffee-3.title",
+    description: "coffee-3.description",
+    image: "/images/coffee/cafe-muoi.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -73,10 +70,9 @@ export const products: Product[] = [
   },
   {
     id: "coffee-4",
-    title: "Cà phê dừa",
-    description:
-      "Sự kết hợp tuyệt vời giữa cà phê và nước cốt dừa tươi, tạo nên hương vị ngọt ngào, béo ngậy và thơm mát.",
-    image: "/images/coffee/928ba7c161567dfae97b9f3c8b9cd55d.jpg",
+    title: "coffee-4.title",
+    description: "coffee-4.description",
+    image: "/images/coffee/cafe-dua.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -85,10 +81,9 @@ export const products: Product[] = [
   },
   {
     id: "coffee-5",
-    title: "Cà phê bơ",
-    description:
-      "Một loại cà phê đặc biệt với lớp kem bơ mềm mịn, béo ngậy phía trên, kết hợp hoàn hảo với vị đắng của cà phê.",
-    image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
+    title: "coffee-5.title",
+    description: "coffee-5.description",
+    image: "/images/coffee/cafe-bo.jpg",
     price: {
       medium: 25000,
       large: null,
@@ -97,10 +92,9 @@ export const products: Product[] = [
   },
   {
     id: "coffee-6",
-    title: "Bạc xíu",
-    description:
-      "Thức uống có nguồn gốc từ người Hoa với sự kết hợp hài hòa giữa cà phê, sữa đặc và sữa tươi, vị ngọt đậm đà.",
-    image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
+    title: "coffee-6.title",
+    description: "coffee-6.description",
+    image: "/images/coffee/bac-xiu.jpg",
     price: {
       medium: 17000,
       large: null,
@@ -109,10 +103,9 @@ export const products: Product[] = [
   },
   {
     id: "coffee-7",
-    title: "Cacao",
-    description:
-      "Thức uống từ bột cacao nguyên chất, thơm ngon và bổ dưỡng, có thể uống nóng hoặc lạnh đều ngon.",
-    image: "/images/coffee/cc32481f44aedc6161f4514aa51e86ed.jpg",
+    title: "coffee-7.title",
+    description: "coffee-7.description",
+    image: "/images/coffee/cacao.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -123,9 +116,8 @@ export const products: Product[] = [
   // Milk Tea
   {
     id: "milk-tea-1",
-    title: "Trà sữa truyền thống",
-    description:
-      "Hương vị trà đen đậm đà kết hợp với sữa tạo nên thức uống béo ngậy, thơm ngon với topping trân châu dẻo dai.",
+    title: "milk-tea-1.title",
+    description: "milk-tea-1.description",
     image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
     price: {
       medium: 20000,
@@ -135,9 +127,8 @@ export const products: Product[] = [
   },
   {
     id: "milk-tea-2",
-    title: "Trà sữa thái xanh",
-    description:
-      "Hương vị trà xanh Thái đặc trưng kết hợp với sữa, mang đến hương vị thơm mát, ngọt thanh.",
+    title: "milk-tea-2.title",
+    description: "milk-tea-2.description",
     image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
     price: {
       medium: 20000,
@@ -147,9 +138,8 @@ export const products: Product[] = [
   },
   {
     id: "milk-tea-3",
-    title: "Trà sữa thái đỏ",
-    description:
-      "Hương vị độc đáo từ trà đỏ Thái, kết hợp với sữa tạo nên màu sắc đẹp mắt và hương vị thơm ngon.",
+    title: "milk-tea-3.title",
+    description: "milk-tea-3.description",
     image: "/images/juice/e4e298580092546276f9bddbe04cdb23.jpg",
     price: {
       medium: 20000,
@@ -159,9 +149,8 @@ export const products: Product[] = [
   },
   {
     id: "milk-tea-4",
-    title: "Trà sữa khoai môn",
-    description:
-      "Hương vị ngọt nhẹ, béo ngậy của khoai môn kết hợp với trà sữa tạo nên thức uống thơm ngon, bổ dưỡng.",
+    title: "milk-tea-4.title",
+    description: "milk-tea-4.description",
     image: "/images/juice/864e94ccd30286832c1241ad193ca5a5.jpg",
     price: {
       medium: 20000,
@@ -171,9 +160,8 @@ export const products: Product[] = [
   },
   {
     id: "milk-tea-5",
-    title: "Trà sữa gạo rang",
-    description:
-      "Hương vị đặc biệt từ gạo được rang thơm, kết hợp với trà sữa tạo nên mùi thơm đặc trưng và vị ngon khó cưỡng.",
+    title: "milk-tea-5.title",
+    description: "milk-tea-5.description",
     image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
     price: {
       medium: 20000,
@@ -183,9 +171,8 @@ export const products: Product[] = [
   },
   {
     id: "milk-tea-6",
-    title: "Trà sữa matcha",
-    description:
-      "Vị đắng nhẹ của bột trà xanh Nhật Bản kết hợp với sữa tạo nên hương vị thơm ngon, thanh mát.",
+    title: "milk-tea-6.title",
+    description: "milk-tea-6.description",
     image: "/images/coffee/928ba7c161567dfae97b9f3c8b9cd55d.jpg",
     price: {
       medium: 20000,
@@ -195,9 +182,8 @@ export const products: Product[] = [
   },
   {
     id: "milk-tea-7",
-    title: "Trà sữa chocolate",
-    description:
-      "Sự kết hợp hài hòa giữa vị đắng của chocolate và vị ngọt béo của sữa, tạo nên thức uống thơm ngon, đậm đà.",
+    title: "milk-tea-7.title",
+    description: "milk-tea-7.description",
     image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
     price: {
       medium: 20000,
@@ -207,9 +193,8 @@ export const products: Product[] = [
   },
   {
     id: "milk-tea-8",
-    title: "Trà sữa dâu",
-    description:
-      "Vị ngọt thanh của dâu tây kết hợp với trà sữa béo ngậy, tạo nên thức uống thơm ngon, màu sắc bắt mắt.",
+    title: "milk-tea-8.title",
+    description: "milk-tea-8.description",
     image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
     price: {
       medium: 20000,
@@ -219,9 +204,8 @@ export const products: Product[] = [
   },
   {
     id: "milk-tea-9",
-    title: "Trà sữa sâm dứa",
-    description:
-      "Hương vị đặc trưng của sâm dứa kết hợp với trà sữa tạo nên thức uống thơm mát, giải nhiệt hiệu quả.",
+    title: "milk-tea-9.title",
+    description: "milk-tea-9.description",
     image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
     price: {
       medium: 20000,
@@ -231,9 +215,8 @@ export const products: Product[] = [
   },
   {
     id: "milk-tea-10",
-    title: "Trà sữa nhai",
-    description:
-      "Trà sữa với các loại topping như trân châu, thạch... tạo nên trải nghiệm vừa uống vừa nhai thú vị.",
+    title: "milk-tea-10.title",
+    description: "milk-tea-10.description",
     image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
     price: {
       medium: 20000,
@@ -245,9 +228,8 @@ export const products: Product[] = [
   // Must Try
   {
     id: "must-try-1",
-    title: "Sinh tố bơ",
-    description:
-      "Thức uống bổ dưỡng từ bơ tươi xay nhuyễn, béo ngậy và mát lạnh, tốt cho sức khỏe.",
+    title: "must-try-1.title",
+    description: "must-try-1.description",
     image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
     price: {
       medium: 20000,
@@ -257,9 +239,8 @@ export const products: Product[] = [
   },
   {
     id: "must-try-2",
-    title: "Sinh tố xoài",
-    description:
-      "Vị ngọt thanh mát của xoài chín, xay cùng đá tạo nên thức uống giải nhiệt tuyệt vời cho ngày hè.",
+    title: "must-try-2.title",
+    description: "must-try-2.description",
     image: "/images/coffee/928ba7c161567dfae97b9f3c8b9cd55d.jpg",
     price: {
       medium: 20000,
@@ -269,9 +250,8 @@ export const products: Product[] = [
   },
   {
     id: "must-try-3",
-    title: "Milo dằm",
-    description:
-      "Thức uống quen thuộc với hương vị chocolate malt đặc trưng của Milo, kết hợp với đá dằm mát lạnh.",
+    title: "must-try-3.title",
+    description: "must-try-3.description",
     image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
     price: {
       medium: 20000,
@@ -281,9 +261,8 @@ export const products: Product[] = [
   },
   {
     id: "must-try-4",
-    title: "Đá me hạt dẻ",
-    description:
-      "Vị chua ngọt của me, kết hợp với hạt dẻ dẻo dai, tạo nên thức uống giải khát tuyệt vời.",
+    title: "must-try-4.title",
+    description: "must-try-4.description",
     image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
     price: {
       medium: 20000,
@@ -293,9 +272,8 @@ export const products: Product[] = [
   },
   {
     id: "must-try-5",
-    title: "Nha đam hạt chia",
-    description:
-      "Thức uống thanh mát với nha đam giòn ngọt và hạt chia bổ dưỡng, giúp giải nhiệt hiệu quả.",
+    title: "must-try-5.title",
+    description: "must-try-5.description",
     image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
     price: {
       medium: 20000,
@@ -305,9 +283,8 @@ export const products: Product[] = [
   },
   {
     id: "must-try-6",
-    title: "Matcha latte",
-    description:
-      "Sự kết hợp hài hòa giữa bột trà xanh Nhật Bản và sữa tươi, tạo nên thức uống thơm ngon, thanh mát.",
+    title: "must-try-6.title",
+    description: "must-try-6.description",
     image: "/images/juice/e4e298580092546276f9bddbe04cdb23.jpg",
     price: {
       medium: 20000,
@@ -319,9 +296,8 @@ export const products: Product[] = [
   // Tea
   {
     id: "tea-1",
-    title: "Trà gừng",
-    description:
-      "Thức uống ấm nóng từ trà và gừng tươi, giúp giữ ấm cơ thể và tốt cho sức khỏe, đặc biệt vào mùa lạnh.",
+    title: "tea-1.title",
+    description: "tea-1.description",
     image: "/images/juice/e4e298580092546276f9bddbe04cdb23.jpg",
     price: {
       medium: 20000,
@@ -331,9 +307,8 @@ export const products: Product[] = [
   },
   {
     id: "tea-2",
-    title: "Trà tắc",
-    description:
-      "Vị chua thanh của quả tắc kết hợp với vị chát nhẹ của trà, tạo nên thức uống giải khát hiệu quả.",
+    title: "tea-2.title",
+    description: "tea-2.description",
     image: "/images/juice/864e94ccd30286832c1241ad193ca5a5.jpg",
     price: {
       medium: 15000,
@@ -343,9 +318,8 @@ export const products: Product[] = [
   },
   {
     id: "tea-3",
-    title: "Trà chanh",
-    description:
-      "Đồ uống giải khát phổ biến với vị chua của chanh và vị chát nhẹ của trà, dễ uống và thơm mát.",
+    title: "tea-3.title",
+    description: "tea-3.description",
     image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
     price: {
       medium: 15000,
@@ -355,9 +329,8 @@ export const products: Product[] = [
   },
   {
     id: "tea-4",
-    title: "Trà trái cây",
-    description:
-      "Sự kết hợp hoàn hảo giữa trà và nhiều loại trái cây tươi, tạo nên thức uống đầy màu sắc và hương vị.",
+    title: "tea-4.title",
+    description: "tea-4.description",
     image: "/images/coffee/cc32481f44aedc6161f4514aa51e86ed.jpg",
     price: {
       medium: 20000,
@@ -367,9 +340,8 @@ export const products: Product[] = [
   },
   {
     id: "tea-5",
-    title: "Trà măng cầu",
-    description:
-      "Vị ngọt thanh của măng cầu kết hợp với trà tạo nên thức uống thơm mát, dễ chịu.",
+    title: "tea-5.title",
+    description: "tea-5.description",
     image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
     price: {
       medium: 20000,
@@ -379,9 +351,8 @@ export const products: Product[] = [
   },
   {
     id: "tea-6",
-    title: "Trà đào xí muội cam sả",
-    description:
-      "Hương vị độc đáo từ sự kết hợp của trà, đào, xí muội, cam và sả, tạo nên thức uống thơm mát, chua ngọt vừa phải.",
+    title: "tea-6.title",
+    description: "tea-6.description",
     image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
     price: {
       medium: 20000,
@@ -391,9 +362,8 @@ export const products: Product[] = [
   },
   {
     id: "tea-7",
-    title: "Trà vải",
-    description:
-      "Vị ngọt thanh của vải kết hợp với trà tạo nên thức uống thơm mát, thích hợp cho ngày hè.",
+    title: "tea-7.title",
+    description: "tea-7.description",
     image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
     price: {
       medium: 20000,
@@ -405,9 +375,8 @@ export const products: Product[] = [
   // Juices
   {
     id: "juices-1",
-    title: "Nước ép dứa",
-    description:
-      "Vị ngọt thanh mát của dứa tươi, giàu vitamin C và các enzym giúp tiêu hóa tốt.",
+    title: "juices-1.title",
+    description: "juices-1.description",
     image: "/images/coffee/928ba7c161567dfae97b9f3c8b9cd55d.jpg",
     price: {
       medium: 15000,
@@ -417,9 +386,8 @@ export const products: Product[] = [
   },
   {
     id: "juices-2",
-    title: "Nước ép cam",
-    description:
-      "Vị chua ngọt tự nhiên của cam tươi, giàu vitamin C, giúp tăng cường sức đề kháng.",
+    title: "juices-2.title",
+    description: "juices-2.description",
     image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
     price: {
       medium: 15000,
@@ -429,9 +397,8 @@ export const products: Product[] = [
   },
   {
     id: "juices-3",
-    title: "Nước ép dưa hấu",
-    description:
-      "Thức uống mát lạnh từ dưa hấu tươi, giàu nước và các chất chống oxy hóa, giúp giải nhiệt hiệu quả.",
+    title: "juices-3.title",
+    description: "juices-3.description",
     image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
     price: {
       medium: 15000,
@@ -441,9 +408,8 @@ export const products: Product[] = [
   },
   {
     id: "juices-4",
-    title: "Nước ép rau cần",
-    description:
-      "Thức uống thanh mát, bổ dưỡng từ rau cần tươi, giàu chất xơ và vitamin.",
+    title: "juices-4.title",
+    description: "juices-4.description",
     image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
     price: {
       medium: 15000,
@@ -453,9 +419,8 @@ export const products: Product[] = [
   },
   {
     id: "juices-5",
-    title: "Nước ép rau má đậu xanh",
-    description:
-      "Thức uống thanh mát, bổ dưỡng từ rau má và đậu xanh, có tác dụng giải nhiệt và làm đẹp da.",
+    title: "juices-5.title",
+    description: "juices-5.description",
     image: "/images/juice/e4e298580092546276f9bddbe04cdb23.jpg",
     price: {
       medium: 15000,
@@ -465,9 +430,8 @@ export const products: Product[] = [
   },
   {
     id: "juices-6",
-    title: "Nước chanh dây",
-    description:
-      "Vị chua đặc trưng của chanh dây kết hợp với đường tạo nên thức uống chua ngọt, giải khát hiệu quả.",
+    title: "juices-6.title",
+    description: "juices-6.description",
     image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
     price: {
       medium: 15000,
@@ -477,9 +441,8 @@ export const products: Product[] = [
   },
   {
     id: "juices-7",
-    title: "Nước chanh",
-    description:
-      "Thức uống giải khát cổ điển với vị chua thanh mát của chanh tươi.",
+    title: "juices-7.title",
+    description: "juices-7.description",
     image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
     price: {
       medium: 15000,
@@ -489,9 +452,8 @@ export const products: Product[] = [
   },
   {
     id: "juices-8",
-    title: "Nước chanh muối",
-    description:
-      "Sự kết hợp hài hòa giữa vị chua của chanh và vị mặn của muối, tạo nên thức uống giải khát và bù nước hiệu quả.",
+    title: "juices-8.title",
+    description: "juices-8.description",
     image: "/images/coffee/cc32481f44aedc6161f4514aa51e86ed.jpg",
     price: {
       medium: 15000,
@@ -503,9 +465,8 @@ export const products: Product[] = [
   // Yogurt
   {
     id: "yogurt-1",
-    title: "Sữa chua trái cây",
-    description:
-      "Sữa chua tươi mát kết hợp với nhiều loại trái cây tươi, tạo nên hương vị thơm ngon và bổ dưỡng.",
+    title: "yogurt-1.title",
+    description: "yogurt-1.description",
     image: "/images/juice/864e94ccd30286832c1241ad193ca5a5.jpg",
     price: {
       medium: 20000,
@@ -515,9 +476,8 @@ export const products: Product[] = [
   },
   {
     id: "yogurt-2",
-    title: "Sữa chua việt quất",
-    description:
-      "Sự kết hợp hoàn hảo giữa sữa chua béo ngậy và việt quất chua ngọt, giàu chất chống oxy hóa.",
+    title: "yogurt-2.title",
+    description: "yogurt-2.description",
     image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
     price: {
       medium: 20000,
@@ -527,9 +487,8 @@ export const products: Product[] = [
   },
   {
     id: "yogurt-3",
-    title: "Sữa chua dâu",
-    description:
-      "Vị chua ngọt của dâu tây kết hợp với sữa chua tươi, tạo nên thức uống thơm ngon, lý tưởng cho mùa hè.",
+    title: "yogurt-3.title",
+    description: "yogurt-3.description",
     image: "/images/coffee/cc32481f44aedc6161f4514aa51e86ed.jpg",
     price: {
       medium: 20000,
@@ -539,9 +498,8 @@ export const products: Product[] = [
   },
   {
     id: "yogurt-4",
-    title: "Sữa chua đào",
-    description:
-      "Vị ngọt thanh của đào kết hợp với sữa chua tươi, tạo nên hương vị thơm ngon, hấp dẫn.",
+    title: "yogurt-4.title",
+    description: "yogurt-4.description",
     image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
     price: {
       medium: 20000,
@@ -551,9 +509,8 @@ export const products: Product[] = [
   },
   {
     id: "yogurt-5",
-    title: "Sữa chua mít",
-    description:
-      "Vị ngọt đặc trưng của mít kết hợp với sữa chua tươi, tạo nên hương vị thơm ngon, độc đáo.",
+    title: "yogurt-5.title",
+    description: "yogurt-5.description",
     image: "/images/coffee/928ba7c161567dfae97b9f3c8b9cd55d.jpg",
     price: {
       medium: 20000,
@@ -563,9 +520,8 @@ export const products: Product[] = [
   },
   {
     id: "yogurt-6",
-    title: "Kem plan",
-    description:
-      "Món tráng miệng béo ngậy với vị caramen ngọt thơm, mềm mịn, tan trong miệng.",
+    title: "yogurt-6.title",
+    description: "yogurt-6.description",
     image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
     price: {
       medium: 10000,
@@ -575,9 +531,8 @@ export const products: Product[] = [
   },
   {
     id: "yogurt-7",
-    title: "Panna cotta nhiều vị",
-    description:
-      "Món tráng miệng của Ý với vị kem sữa mềm mịn, phủ lớp sốt trái cây thơm ngon.",
+    title: "yogurt-7.title",
+    description: "yogurt-7.description",
     image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
     price: {
       medium: 5000,

@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import { Product } from "@/types";
 import { Card, CardContent } from "@/components/ui/card";
+import { Product } from "@/types";
 import { motion } from "framer-motion";
-import { Badge } from "@/components/ui/badge";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 interface ProductCardProps {
   product: Product;
@@ -17,6 +17,7 @@ export function ProductCard({
   onClick,
   isNew = false,
 }: ProductCardProps) {
+  const t = useTranslations("products");
   const formatPrice = (price: number | null) => {
     if (price === null) return "";
     return new Intl.NumberFormat("vi-VN").format(price) + "đ";
@@ -43,15 +44,10 @@ export function ProductCard({
             className="object-cover p-3 rounded-2xl"
             sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
           />
-          {isNew && (
-            <div className="absolute top-0 left-1 bg-green-100 text-xs font-bold flex items-center justify-center w-8 h-8 rounded-full">
-              MỚI!
-            </div>
-          )}
         </div>
         <CardContent className="p-3 pt-2">
           <h3 className="font-medium text-sm mb-1 line-clamp-1">
-            {product.title}
+            {t(product.title)}
           </h3>
           <p className="text-primary text-sm font-semibold">
             {formatPrice(product.price.medium)}

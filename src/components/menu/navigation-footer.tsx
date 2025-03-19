@@ -1,7 +1,7 @@
 "use client";
 
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { motion } from "framer-motion";
-import { Coffee } from "lucide-react";
 
 export function NavigationFooter() {
   return (
@@ -42,9 +42,12 @@ function OrderButton() {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >
-        <div className="relative flex flex-col items-center justify-center w-14 h-14 rounded-full bg-primary text-white">
-          <Coffee size={30} className="mb-1" />
-        </div>
+        <DotLottieReact
+          src="/animation/coffee-cup.json"
+          loop
+          autoplay
+          className="w-full h-full"
+        />
       </motion.div>
     </div>
   );

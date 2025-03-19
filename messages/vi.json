@@ -1,0 +1,219 @@
+{
+  "home": {
+    "menu": "Thực đơn"
+  },
+  "categories": {
+    "coffee": {
+      "name": "Cà phê"
+    },
+    "milk-tea": {
+      "name": "Trà sữa"
+    },
+    "must-try": {
+      "name": "Đặc biệt"
+    },
+    "tea": {
+      "name": "Trà"
+    },
+    "juices": {
+      "name": "Nước ép"
+    },
+    "yogurt": {
+      "name": "Sữa chua"
+    }
+  },
+  "products": {
+    "coffee-1": {
+      "title": "Cà phê đen sài gòn",
+      "description": "Hương vị đậm đà của cà phê nguyên chất với độ đắng vừa phải, thưởng thức buổi sáng tuyệt vời."
+    },
+    "coffee-2": {
+      "title": "Cà phê sữa sài gòn",
+      "description": "Sự kết hợp hoàn hảo giữa cà phê đậm đà và sữa đặc béo ngậy, tạo nên hương vị hài hòa, thơm ngon."
+    },
+    "coffee-3": {
+      "title": "Cà phê muối",
+      "description": "Vị cà phê thơm nồng kết hợp với một chút muối biển, tạo nên hương vị độc đáo, làm giảm vị đắng và tăng độ thơm ngon."
+    },
+    "coffee-4": {
+      "title": "Cà phê dừa",
+      "description": "Sự kết hợp tuyệt vời giữa cà phê và nước cốt dừa tươi, tạo nên hương vị ngọt ngào, béo ngậy và thơm mát."
+    },
+    "coffee-5": {
+      "title": "Cà phê bơ",
+      "description": "Một loại cà phê đặc biệt với lớp kem bơ mềm mịn, béo ngậy phía trên, kết hợp hoàn hảo với vị đắng của cà phê."
+    },
+    "coffee-6": {
+      "title": "Bạc xỉu",
+      "description": "Thức uống có nguồn gốc từ người Hoa với sự kết hợp hài hòa giữa cà phê, sữa đặc và sữa tươi, vị ngọt đậm đà."
+    },
+    "coffee-7": {
+      "title": "Cacao",
+      "description": "Thức uống từ bột cacao nguyên chất, thơm ngon và bổ dưỡng, có thể uống nóng hoặc lạnh đều ngon."
+    },
+    "milk-tea-1": {
+      "title": "Trà sữa truyền thống",
+      "description": "Hương vị trà đen đậm đà kết hợp với sữa tạo nên thức uống béo ngậy, thơm ngon với topping trân châu dẻo dai."
+    },
+    "milk-tea-2": {
+      "title": "Trà sữa thái xanh",
+      "description": "Hương vị trà xanh Thái đặc trưng kết hợp với sữa, mang đến hương vị thơm mát, ngọt thanh."
+    },
+    "milk-tea-3": {
+      "title": "Trà sữa thái đỏ",
+      "description": "Hương vị độc đáo từ trà đỏ Thái, kết hợp với sữa tạo nên màu sắc đẹp mắt và hương vị thơm ngon."
+    },
+    "milk-tea-4": {
+      "title": "Trà sữa khoai môn",
+      "description": "Hương vị ngọt nhẹ, béo ngậy của khoai môn kết hợp với trà sữa tạo nên thức uống thơm ngon, bổ dưỡng."
+    },
+    "milk-tea-5": {
+      "title": "Trà sữa gạo rang",
+      "description": "Hương vị đặc biệt từ gạo được rang thơm, kết hợp với trà sữa tạo nên mùi thơm đặc trưng và vị ngon khó cưỡng."
+    },
+    "milk-tea-6": {
+      "title": "Trà sữa matcha",
+      "description": "Vị đắng nhẹ của bột trà xanh Nhật Bản kết hợp với sữa tạo nên hương vị thơm ngon, thanh mát."
+    },
+    "milk-tea-7": {
+      "title": "Trà sữa chocolate",
+      "description": "Sự kết hợp hài hòa giữa vị đắng của chocolate và vị ngọt béo của sữa, tạo nên thức uống thơm ngon, đậm đà."
+    },
+    "milk-tea-8": {
+      "title": "Trà sữa dâu",
+      "description": "Vị ngọt thanh của dâu tây kết hợp với trà sữa béo ngậy, tạo nên thức uống thơm ngon, màu sắc bắt mắt."
+    },
+    "milk-tea-9": {
+      "title": "Trà sữa sâm dứa",
+      "description": "Hương vị đặc trưng của sâm dứa kết hợp với trà sữa tạo nên thức uống thơm mát, giải nhiệt hiệu quả."
+    },
+    "milk-tea-10": {
+      "title": "Trà sữa nhai",
+      "description": "Trà sữa với các loại topping như trân châu, thạch... tạo nên trải nghiệm vừa uống vừa nhai thú vị."
+    },
+    "must-try-1": {
+      "title": "Sinh tố bơ",
+      "description": "Thức uống bổ dưỡng từ bơ tươi xay nhuyễn, béo ngậy và mát lạnh, tốt cho sức khỏe."
+    },
+    "must-try-2": {
+      "title": "Sinh tố xoài",
+      "description": "Vị ngọt thanh mát của xoài chín, xay cùng đá tạo nên thức uống giải nhiệt tuyệt vời cho ngày hè."
+    },
+    "must-try-3": {
+      "title": "Milo dằm",
+      "description": "Thức uống quen thuộc với hương vị chocolate malt đặc trưng của Milo, kết hợp với đá dằm mát lạnh."
+    },
+    "must-try-4": {
+      "title": "Đá me hạt dẻ",
+      "description": "Vị chua ngọt của me, kết hợp với hạt dẻ dẻo dai, tạo nên thức uống giải khát tuyệt vời."
+    },
+    "must-try-5": {
+      "title": "Nha đam hạt chia",
+      "description": "Thức uống thanh mát với nha đam giòn ngọt và hạt chia bổ dưỡng, giúp giải nhiệt hiệu quả."
+    },
+    "must-try-6": {
+      "title": "Matcha latte",
+      "description": "Sự kết hợp hài hòa giữa bột trà xanh Nhật Bản và sữa tươi, tạo nên thức uống thơm ngon, thanh mát."
+    },
+    "tea-1": {
+      "title": "Trà gừng",
+      "description": "Thức uống ấm nóng từ trà và gừng tươi, giúp giữ ấm cơ thể và tốt cho sức khỏe, đặc biệt vào mùa lạnh."
+    },
+    "tea-2": {
+      "title": "Trà tắc",
+      "description": "Vị chua thanh của quả tắc kết hợp với vị chát nhẹ của trà, tạo nên thức uống giải khát hiệu quả."
+    },
+    "tea-3": {
+      "title": "Trà chanh",
+      "description": "Đồ uống giải khát phổ biến với vị chua của chanh và vị chát nhẹ của trà, dễ uống và thơm mát."
+    },
+    "tea-4": {
+      "title": "Trà trái cây",
+      "description": "Sự kết hợp hoàn hảo giữa trà và nhiều loại trái cây tươi, tạo nên thức uống đầy màu sắc và hương vị."
+    },
+    "tea-5": {
+      "title": "Trà măng cầu",
+      "description": "Vị ngọt thanh của măng cầu kết hợp với trà tạo nên thức uống thơm mát, dễ chịu."
+    },
+    "tea-6": {
+      "title": "Trà đào xí muội cam sả",
+      "description": "Hương vị độc đáo từ sự kết hợp của trà, đào, xí muội, cam và sả, tạo nên thức uống thơm mát, chua ngọt vừa phải."
+    },
+    "tea-7": {
+      "title": "Trà vải",
+      "description": "Vị ngọt thanh của vải kết hợp với trà tạo nên thức uống thơm mát, thích hợp cho ngày hè."
+    },
+    "juices-1": {
+      "title": "Nước ép dứa",
+      "description": "Vị ngọt thanh mát của dứa tươi, giàu vitamin C và các enzym giúp tiêu hóa tốt."
+    },
+    "juices-2": {
+      "title": "Nước ép cam",
+      "description": "Vị chua ngọt tự nhiên của cam tươi, giàu vitamin C, giúp tăng cường sức đề kháng."
+    },
+    "juices-3": {
+      "title": "Nước ép dưa hấu",
+      "description": "Thức uống mát lạnh từ dưa hấu tươi, giàu nước và các chất chống oxy hóa, giúp giải nhiệt hiệu quả."
+    },
+    "juices-4": {
+      "title": "Nước ép rau cần",
+      "description": "Thức uống thanh mát, bổ dưỡng từ rau cần tươi, giàu chất xơ và vitamin."
+    },
+    "juices-5": {
+      "title": "Nước ép rau má đậu xanh",
+      "description": "Thức uống thanh mát, bổ dưỡng từ rau má và đậu xanh, có tác dụng giải nhiệt và làm đẹp da."
+    },
+    "juices-6": {
+      "title": "Nước chanh dây",
+      "description": "Vị chua đặc trưng của chanh dây kết hợp với đường tạo nên thức uống chua ngọt, giải khát hiệu quả."
+    },
+    "juices-7": {
+      "title": "Nước chanh",
+      "description": "Thức uống giải khát cổ điển với vị chua thanh mát của chanh tươi."
+    },
+    "juices-8": {
+      "title": "Nước chanh muối",
+      "description": "Sự kết hợp hài hòa giữa vị chua của chanh và vị mặn của muối, tạo nên thức uống giải khát và bù nước hiệu quả."
+    },
+    "yogurt-1": {
+      "title": "Sữa chua trái cây",
+      "description": "Sữa chua tươi mát kết hợp với nhiều loại trái cây tươi, tạo nên hương vị thơm ngon và bổ dưỡng."
+    },
+    "yogurt-2": {
+      "title": "Sữa chua việt quất",
+      "description": "Sự kết hợp hoàn hảo giữa sữa chua béo ngậy và việt quất chua ngọt, giàu chất chống oxy hóa."
+    },
+    "yogurt-3": {
+      "title": "Sữa chua dâu",
+      "description": "Vị chua ngọt của dâu tây kết hợp với sữa chua tươi, tạo nên thức uống thơm ngon, lý tưởng cho mùa hè."
+    },
+    "yogurt-4": {
+      "title": "Sữa chua đào",
+      "description": "Vị ngọt thanh của đào kết hợp với sữa chua tươi, tạo nên hương vị thơm ngon, hấp dẫn."
+    },
+    "yogurt-5": {
+      "title": "Sữa chua mít",
+      "description": "Vị ngọt đặc trưng của mít kết hợp với sữa chua tươi, tạo nên hương vị thơm ngon, độc đáo."
+    },
+    "yogurt-6": {
+      "title": "Kem plan",
+      "description": "Món tráng miệng béo ngậy với vị caramen ngọt thơm, mềm mịn, tan trong miệng."
+    },
+    "yogurt-7": {
+      "title": "Panna cotta nhiều vị",
+      "description": "Món tráng miệng của Ý với vị kem sữa mềm mịn, phủ lớp sốt trái cây thơm ngon."
+    }
+  },
+  "common": {
+    "language": "Ngôn ngữ",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt"
+  },
+  "productsDetail": {
+    "productDetail": "Chi tiết sản phẩm",
+    "hot": "Nóng",
+    "iced": "Lạnh",
+    "type": "Loại",
+    "size": "Kích cỡ"
+  }
+}

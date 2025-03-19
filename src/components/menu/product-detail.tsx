@@ -5,6 +5,7 @@ import { Product, ProductSize, Temperature } from "@/types";
 import { ChevronLeft } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface ProductDetailProps {
   product: Product | null;
@@ -13,6 +14,8 @@ interface ProductDetailProps {
 }
 
 export function ProductDetail({ product, open, onClose }: ProductDetailProps) {
+  const t = useTranslations("products");
+  const tDetail = useTranslations("productsDetail");
   const [temperature, setTemperature] = useState<Temperature>("hot");
   const [size, setSize] = useState<ProductSize>("medium");
 
@@ -36,7 +39,7 @@ export function ProductDetail({ product, open, onClose }: ProductDetailProps) {
             <ChevronLeft className="h-5 w-5" />
           </button>
           <SheetTitle className="text-base flex-1 ml-2">
-            Chi tiết sản phẩm
+            {tDetail("productDetail")}
           </SheetTitle>
         </div>
 
@@ -51,8 +54,8 @@ export function ProductDetail({ product, open, onClose }: ProductDetailProps) {
             />
           </div>
 
-          <h2 className="text-xl font-semibold mb-2">{product.title}</h2>
-          <p className="text-sm text-gray-600 mb-4">{product.description}</p>
+          <h2 className="text-xl font-semibold mb-2">{t(product.title)}</h2>
+          <p className="text-sm text-gray-600 mb-4">{t(product.description)}</p>
 
           <div className="mb-6">
             <span className="font-medium">
@@ -68,7 +71,7 @@ export function ProductDetail({ product, open, onClose }: ProductDetailProps) {
           <div className="space-y-6">
             {/* Temperature Selection */}
             <div className="space-y-2">
-              <h3 className="text-base font-medium">Nhiệt độ</h3>
+              <h3 className="text-base font-medium">{tDetail("type")}</h3>
               <div className="grid grid-cols-2 gap-2">
                 <div
                   className={`flex items-center justify-center py-3 rounded-md cursor-pointer ${
@@ -78,7 +81,9 @@ export function ProductDetail({ product, open, onClose }: ProductDetailProps) {
                   }`}
                   onClick={() => setTemperature("hot")}
                 >
-                  <label className="text-sm cursor-pointer">NÓNG</label>
+                  <label className="text-sm cursor-pointer">
+                    {tDetail("hot")}
+                  </label>
                 </div>
                 <div
                   className={`flex items-center justify-center py-3 rounded-md cursor-pointer ${
@@ -88,7 +93,9 @@ export function ProductDetail({ product, open, onClose }: ProductDetailProps) {
                   }`}
                   onClick={() => setTemperature("iced")}
                 >
-                  <label className="text-sm cursor-pointer">ĐÁ</label>
+                  <label className="text-sm cursor-pointer">
+                    {tDetail("iced")}
+                  </label>
                 </div>
               </div>
             </div>
@@ -96,13 +103,14 @@ export function ProductDetail({ product, open, onClose }: ProductDetailProps) {
             {/* Size Selection */}
             {product.price.large !== null && (
               <div className="space-y-2">
-                <h3 className="text-base font-medium">Kích cỡ</h3>
+                <h3 className="text-base font-medium">{tDetail("size")}</h3>
                 <div className="grid grid-cols-2 gap-2">
                   {["medium", "large"].map((sizeOption) => (
                     <div key={sizeOption} className="relative">
                       <div
                         className={`
                           flex flex-col items-center justify-center p-3 bg-gray-100 hover:bg-gray-200 rounded-md cursor-pointer
+                          h-full w-full
                           ${
                             size === sizeOption
                               ? "bg-gray-200 font-medium"

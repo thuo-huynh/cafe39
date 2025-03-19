@@ -1,0 +1,219 @@
+{
+  "home": {
+    "menu": "Menu"
+  },
+  "categories": {
+    "coffee": {
+      "name": "Coffee"
+    },
+    "milk-tea": {
+      "name": "Milk Tea"
+    },
+    "must-try": {
+      "name": "Must Try"
+    },
+    "tea": {
+      "name": "Tea"
+    },
+    "juices": {
+      "name": "Juices"
+    },
+    "yogurt": {
+      "name": "Yogurt"
+    }
+  },
+  "products": {
+    "coffee-1": {
+      "title": "Saigon Black Coffee",
+      "description": "Strong flavor of pure coffee with moderate bitterness, perfect for a wonderful morning."
+    },
+    "coffee-2": {
+      "title": "Saigon Milk Coffee",
+      "description": "Perfect combination of strong coffee and creamy condensed milk, creating a harmonious and delicious taste."
+    },
+    "coffee-3": {
+      "title": "Salt Coffee",
+      "description": "Coffee aroma combined with a touch of sea salt, creating a unique flavor that reduces bitterness and enhances taste."
+    },
+    "coffee-4": {
+      "title": "Coconut Coffee",
+      "description": "Wonderful combination of coffee and fresh coconut milk, creating a sweet, creamy and refreshing flavor."
+    },
+    "coffee-5": {
+      "title": "Butter Coffee",
+      "description": "A special coffee with soft, creamy butter cream on top, perfectly combined with the bitterness of coffee."
+    },
+    "coffee-6": {
+      "title": "Coffee extra milk",
+      "description": "A drink originating from Chinese with a harmonious combination of coffee, condensed milk and fresh milk, rich sweet taste."
+    },
+    "coffee-7": {
+      "title": "Cocoa",
+      "description": "A drink made from pure cocoa powder, delicious and nutritious, can be enjoyed hot or cold."
+    },
+    "milk-tea-1": {
+      "title": "Traditional Milk Tea",
+      "description": "Rich black tea flavor combined with milk creates a creamy, delicious drink with chewy pearls."
+    },
+    "milk-tea-2": {
+      "title": "Green Thai Milk Tea",
+      "description": "Distinctive Thai green tea flavor combined with milk, delivering a refreshing and sweet taste."
+    },
+    "milk-tea-3": {
+      "title": "Red Thai Milk Tea",
+      "description": "Unique flavor from Thai red tea, combined with milk creating beautiful colors and delicious taste."
+    },
+    "milk-tea-4": {
+      "title": "Taro Milk Tea",
+      "description": "Mild sweet and creamy taro flavor combined with milk tea creates a delicious and nutritious drink."
+    },
+    "milk-tea-5": {
+      "title": "Roasted Rice Milk Tea",
+      "description": "Special flavor from roasted rice, combined with milk tea creating a distinctive aroma and irresistible taste."
+    },
+    "milk-tea-6": {
+      "title": "Matcha Milk Tea",
+      "description": "Slight bitterness of Japanese green tea powder combined with milk creates a delicious, refreshing taste."
+    },
+    "milk-tea-7": {
+      "title": "Chocolate Milk Tea",
+      "description": "Harmonious combination of chocolate bitterness and sweet creamy milk, creating a rich, delicious drink."
+    },
+    "milk-tea-8": {
+      "title": "Strawberry Milk Tea",
+      "description": "Sweet taste of strawberries combined with creamy milk tea, creating a delicious drink with eye-catching colors."
+    },
+    "milk-tea-9": {
+      "title": "Pandan Milk Tea",
+      "description": "Distinctive pandan flavor combined with milk tea creates a refreshing drink, perfect for cooling down."
+    },
+    "milk-tea-10": {
+      "title": "Chewing Milk Tea",
+      "description": "Milk tea with toppings like pearls, jelly... creating an interesting drink and chew experience."
+    },
+    "must-try-1": {
+      "title": "Avocado Smoothie",
+      "description": "Nutritious drink made from fresh blended avocado, creamy and cool, good for health."
+    },
+    "must-try-2": {
+      "title": "Mango Smoothie",
+      "description": "Sweet and refreshing taste of ripe mango, blended with ice creating a perfect cooling drink for summer."
+    },
+    "must-try-3": {
+      "title": "Crushed Milo",
+      "description": "Familiar drink with distinctive Milo chocolate malt flavor, combined with crushed ice for refreshment."
+    },
+    "must-try-4": {
+      "title": "Tamarind Chestnut Ice",
+      "description": "Sweet and sour taste of tamarind, combined with chewy chestnuts, creating a perfect thirst-quenching drink."
+    },
+    "must-try-5": {
+      "title": "Aloe Vera Chia Seeds",
+      "description": "Refreshing drink with crunchy aloe vera and nutritious chia seeds, effective for cooling down."
+    },
+    "must-try-6": {
+      "title": "Matcha Latte",
+      "description": "Harmonious combination of Japanese green tea powder and fresh milk, creating a delicious and refreshing drink."
+    },
+    "tea-1": {
+      "title": "Ginger Tea",
+      "description": "Warm drink made from tea and fresh ginger, helps keep body warm and healthy, especially in cold weather."
+    },
+    "tea-2": {
+      "title": "Kumquat Tea",
+      "description": "Fresh taste of kumquat combined with mild tea astringency, creating an effective thirst-quenching drink."
+    },
+    "tea-3": {
+      "title": "Lemon Tea",
+      "description": "Popular refreshing drink with lemon sourness and mild tea astringency, easy to drink and aromatic."
+    },
+    "tea-4": {
+      "title": "Fruit Tea",
+      "description": "Perfect combination of tea and various fresh fruits, creating a colorful and flavorful drink."
+    },
+    "tea-5": {
+      "title": "Soursop Tea",
+      "description": "Sweet taste of soursop combined with tea creates a refreshing and pleasant drink."
+    },
+    "tea-6": {
+      "title": "Peach Preserved Plum Orange Lemongrass Tea",
+      "description": "Unique flavor from combination of tea, peach, preserved plum, orange and lemongrass, creating a refreshing drink with balanced sweet and sour taste."
+    },
+    "tea-7": {
+      "title": "Lychee Tea",
+      "description": "Sweet taste of lychee combined with tea creates a refreshing drink, perfect for summer days."
+    },
+    "juices-1": {
+      "title": "Pineapple Juice",
+      "description": "Sweet and refreshing taste of fresh pineapple, rich in vitamin C and enzymes good for digestion."
+    },
+    "juices-2": {
+      "title": "Orange Juice",
+      "description": "Natural sweet and sour taste of fresh oranges, rich in vitamin C, helps boost immunity."
+    },
+    "juices-3": {
+      "title": "Watermelon Juice",
+      "description": "Cool drink from fresh watermelon, rich in water and antioxidants, effective for cooling down."
+    },
+    "juices-4": {
+      "title": "Celery Juice",
+      "description": "Refreshing and nutritious drink from fresh celery, rich in fiber and vitamins."
+    },
+    "juices-5": {
+      "title": "Pennywort Mung Bean Juice",
+      "description": "Refreshing and nutritious drink from pennywort and mung beans, effective for cooling down and skin beauty."
+    },
+    "juices-6": {
+      "title": "Passion Fruit Juice",
+      "description": "Distinctive sour taste of passion fruit combined with sugar creates a sweet and sour, thirst-quenching drink."
+    },
+    "juices-7": {
+      "title": "Lemon Juice",
+      "description": "Classic refreshing drink with fresh lemon's cool and sour taste."
+    },
+    "juices-8": {
+      "title": "Salted Lemon Juice",
+      "description": "Harmonious combination of lemon sourness and salt, creating an effective thirst-quenching and hydrating drink."
+    },
+    "yogurt-1": {
+      "title": "Fruit Yogurt",
+      "description": "Fresh yogurt combined with various fresh fruits, creating a delicious and nutritious flavor."
+    },
+    "yogurt-2": {
+      "title": "Blueberry Yogurt",
+      "description": "Perfect combination of creamy yogurt and sweet-sour blueberries, rich in antioxidants."
+    },
+    "yogurt-3": {
+      "title": "Strawberry Yogurt",
+      "description": "Sweet and sour taste of strawberries combined with fresh yogurt, creating a delicious drink, perfect for summer."
+    },
+    "yogurt-4": {
+      "title": "Peach Yogurt",
+      "description": "Sweet taste of peach combined with fresh yogurt, creating a delicious and attractive flavor."
+    },
+    "yogurt-5": {
+      "title": "Jackfruit Yogurt",
+      "description": "Distinctive sweet taste of jackfruit combined with fresh yogurt, creating a unique and delicious flavor."
+    },
+    "yogurt-6": {
+      "title": "Crème Caramel",
+      "description": "Creamy dessert with sweet caramel flavor, smooth and melts in your mouth."
+    },
+    "yogurt-7": {
+      "title": "Assorted Panna Cotta",
+      "description": "Italian dessert with smooth cream texture, topped with delicious fruit sauce."
+    }
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "vietnamese": "Vietnamese"
+  },
+  "productsDetail": {
+    "productDetail": "Product Detail",
+    "hot": "HOT",
+    "iced": "ICED",
+    "type": "Type",
+    "size": "Size"
+  }
+}

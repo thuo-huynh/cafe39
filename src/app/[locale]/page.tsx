@@ -1,19 +1,20 @@
 "use client";
 
-import { useState } from "react";
-import { Product } from "@/types";
-import { categories, products } from "@/data/menu";
+import { NavigationFooter } from "@/components/menu";
 import { CategoryTabs } from "@/components/menu/category-tabs";
-import { ProductGrid } from "@/components/menu/product-grid";
 import { ProductDetail } from "@/components/menu/product-detail";
+import { ProductGrid } from "@/components/menu/product-grid";
+import { categories, products } from "@/data/menu";
+import { Product } from "@/types";
 import { motion } from "framer-motion";
-import { MapPin } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { useState } from "react";
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState(categories[0].id);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [detailOpen, setDetailOpen] = useState(false);
-
+  const t = useTranslations("home");
   // Filter products by active category
   const filteredProducts = products.filter(
     (product) => product.category === activeCategory
@@ -41,7 +42,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-3xl font-bold mb-4"
           >
-            Menu Order
+            {t("menu")}
           </motion.h1>
         </div>
       </div>
@@ -68,6 +69,7 @@ export default function Home() {
           onClose={handleCloseDetail}
         />
       </div>
+      <NavigationFooter />
     </div>
   );
 }
