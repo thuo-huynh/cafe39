@@ -16,7 +16,7 @@ type LanguageOption = {
 const languages: LanguageOption[] = [
   {
     locale: Locale.VI,
-    label: "Việt Nam",
+    label: "Tiếng Việt",
     flagSrc: "/flag/vietnam.png",
   },
   {
@@ -26,7 +26,7 @@ const languages: LanguageOption[] = [
   },
   {
     locale: Locale.JP,
-    label: "Japan",
+    label: "日本語",
     flagSrc: "/flag/japan.png",
   },
   {
