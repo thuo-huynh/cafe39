@@ -1,15 +1,6 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuCheckboxItem,
-  DropdownMenuContent,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { LOCALES, LOCALES_LABELS } from "@/constants/locale.constants";
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { LanguagesIcon } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 import Logo from "../menu/logo";
@@ -40,27 +31,6 @@ export default function Header({ locale }: Props) {
       <div className="container mx-auto flex h-14 max-w-screen-2xl items-center justify-between px-6">
         <div className="flex items-center">
           <Logo className="text-lg md:text-2xl">Cafe39</Logo>
-        </div>
-        <div className="flex items-center">
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="outline" size="icon" className="cursor-pointer">
-                <LanguagesIcon className="w-4 h-4" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              {LOCALES.map((language) => (
-                <DropdownMenuCheckboxItem
-                  className="cursor-pointer"
-                  key={language}
-                  checked={locale === language}
-                  onClick={() => changeLanguage(language)}
-                >
-                  {LOCALES_LABELS[language]}
-                </DropdownMenuCheckboxItem>
-              ))}
-            </DropdownMenuContent>
-          </DropdownMenu>
         </div>
       </div>
     </header>

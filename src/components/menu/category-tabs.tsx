@@ -37,12 +37,13 @@ export function CategoryTabs({
               <TabsTrigger
                 key={category.id}
                 value={category.id}
-                className="flex-shrink-0 h-10 px-4 data-[state=active]:bg-primary data-[state=active]:text-white rounded-full"
+                className="flex-shrink-0 h-10 px-4 data-[state=active]:bg-primary data-[state=active]:text-white rounded-full hover:bg-secondary hover:text-white"
                 style={index === 0 ? { marginLeft: 0 } : undefined}
               >
                 <motion.span
                   initial={{ opacity: 0, y: 5 }}
                   animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 1 }}
                   className="text-sm font-medium whitespace-nowrap"
                 >
                   {t(category.name)}

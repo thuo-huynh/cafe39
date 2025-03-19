@@ -252,7 +252,7 @@ export const products: Product[] = [
     id: "must-try-4",
     title: "must-try-4.title",
     description: "must-try-4.description",
-    image: "/images/must-try/da-me.jpg",
+    image: "/images/must-try/da-me-1.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -287,7 +287,7 @@ export const products: Product[] = [
     id: "tea-1",
     title: "tea-1.title",
     description: "tea-1.description",
-    image: "/images/juice/e4e298580092546276f9bddbe04cdb23.jpg",
+    image: "/images/tea/tra-gung.jpg",
     price: {
       medium: 20000,
       large: null,
@@ -298,7 +298,7 @@ export const products: Product[] = [
     id: "tea-2",
     title: "tea-2.title",
     description: "tea-2.description",
-    image: "/images/juice/864e94ccd30286832c1241ad193ca5a5.jpg",
+    image: "/images/tea/tra-tac.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -309,7 +309,7 @@ export const products: Product[] = [
     id: "tea-3",
     title: "tea-3.title",
     description: "tea-3.description",
-    image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
+    image: "/images/tea/tra-chanh.jpg",
     price: {
       medium: 15000,
       large: 20000,
@@ -320,7 +320,7 @@ export const products: Product[] = [
     id: "tea-4",
     title: "tea-4.title",
     description: "tea-4.description",
-    image: "/images/coffee/cc32481f44aedc6161f4514aa51e86ed.jpg",
+    image: "/images/tea/tra-trai-cay.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -331,7 +331,7 @@ export const products: Product[] = [
     id: "tea-5",
     title: "tea-5.title",
     description: "tea-5.description",
-    image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
+    image: "/images/tea/tra-mang-cau.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -342,7 +342,7 @@ export const products: Product[] = [
     id: "tea-6",
     title: "tea-6.title",
     description: "tea-6.description",
-    image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
+    image: "/images/tea/tra-dao-cam-xa.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -353,7 +353,7 @@ export const products: Product[] = [
     id: "tea-7",
     title: "tea-7.title",
     description: "tea-7.description",
-    image: "/images/juice/ba5888cae1f244a43710bb38cbbaf23b.jpg",
+    image: "/images/tea/tra-vai.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -445,7 +445,7 @@ export const products: Product[] = [
     id: "yogurt-1",
     title: "yogurt-1.title",
     description: "yogurt-1.description",
-    image: "/images/juice/864e94ccd30286832c1241ad193ca5a5.jpg",
+    image: "/images/yogurt/trai-cay.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -456,7 +456,7 @@ export const products: Product[] = [
     id: "yogurt-2",
     title: "yogurt-2.title",
     description: "yogurt-2.description",
-    image: "/images/coffee/864e94ccd30286832c1241ad193ca5a5.jpg",
+    image: "/images/yogurt/viet-quat.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -467,7 +467,7 @@ export const products: Product[] = [
     id: "yogurt-3",
     title: "yogurt-3.title",
     description: "yogurt-3.description",
-    image: "/images/coffee/cc32481f44aedc6161f4514aa51e86ed.jpg",
+    image: "/images/yogurt/dau.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -478,7 +478,7 @@ export const products: Product[] = [
     id: "yogurt-4",
     title: "yogurt-4.title",
     description: "yogurt-4.description",
-    image: "/images/coffee/9a897189061a44ccbc211f88205d161c.jpg",
+    image: "/images/yogurt/dao.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -489,7 +489,7 @@ export const products: Product[] = [
     id: "yogurt-5",
     title: "yogurt-5.title",
     description: "yogurt-5.description",
-    image: "/images/coffee/928ba7c161567dfae97b9f3c8b9cd55d.jpg",
+    image: "/images/yogurt/mit.jpg",
     price: {
       medium: 20000,
       large: 25000,
@@ -500,7 +500,7 @@ export const products: Product[] = [
     id: "yogurt-6",
     title: "yogurt-6.title",
     description: "yogurt-6.description",
-    image: "/images/coffee/40dae7bdfe27273b454c7c4b4ef72e50.jpg",
+    image: "/images/yogurt/plan.jpg",
     price: {
       medium: 10000,
       large: null,
@@ -511,7 +511,7 @@ export const products: Product[] = [
     id: "yogurt-7",
     title: "yogurt-7.title",
     description: "yogurt-7.description",
-    image: "/images/juice/7dc52a2e06d9c703cce83627dd8c9cc7.jpg",
+    image: "/images/yogurt/panna-cotta.jpg",
     price: {
       medium: 5000,
       large: 10000,
