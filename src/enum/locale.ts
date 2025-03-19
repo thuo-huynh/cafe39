@@ -1,5 +1,6 @@
 export enum Locale {
-  EN = 'en',
-  JP = 'jp',
-  VI = 'vi',
+  EN = "en",
+  JP = "jp",
+  VI = "vi",
+  KR = "kr",
 }

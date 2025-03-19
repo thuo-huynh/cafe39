@@ -29,6 +29,11 @@ const languages: LanguageOption[] = [
     label: "Japan",
     flagSrc: "/flag/japan.png",
   },
+  {
+    locale: Locale.KR,
+    label: "한국어",
+    flagSrc: "/flag/south-korea.png",
+  },
 ];
 
 type Props = {
@@ -81,7 +86,7 @@ export function LanguageSwitcher({ currentLocale }: Props) {
         <motion.div key={lang.locale} variants={item}>
           <Button
             variant={currentLocale === lang.locale ? "default" : "outline"}
-            className="flex items-center gap-2 px-4 hover:bg-secondary hover:text-white"
+            className="flex items-center gap-2 px-4 w-32 justify-center hover:bg-secondary hover:text-white"
             onClick={() => changeLanguage(lang.locale)}
           >
             <Image

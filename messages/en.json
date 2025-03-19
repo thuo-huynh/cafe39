@@ -199,7 +199,8 @@
   "common": {
     "language": "Language",
     "english": "English",
-    "vietnamese": "Vietnamese"
+    "vietnamese": "Vietnamese",
+    "korean": "Korean"
   },
   "productsDetail": {
     "productDetail": "Product Detail",

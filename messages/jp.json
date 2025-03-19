@@ -200,7 +200,8 @@
   "common": {
     "language": "言語",
     "english": "英語",
-    "vietnamese": "ベトナム語"
+    "vietnamese": "ベトナム語",
+    "korean": "韓国語"
   },
   "productsDetail": {
     "productDetail": "商品詳細",
