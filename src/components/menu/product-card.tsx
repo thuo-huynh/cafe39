@@ -48,7 +48,7 @@ export function ProductCard({
       "milk-tea-9": "Trà sữa nhài",
       "must-try-1": "Sinh tố bơ",
       "must-try-2": "Sinh tố xoài",
-      "must-try-3": "Milo đầm đá",
+      "must-try-3": "Milo dầm đá",
       "must-try-4": "Đá me hạt đác",
       "must-try-5": "Nha đam hạt chia",
       "must-try-6": "Matcha Latte",
