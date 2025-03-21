@@ -3,8 +3,23 @@ import { getMessages } from "next-intl/server";
 import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "@/components/ui/sonner";
 import Header from "@/components/layout/header";
+import { Metadata } from "next";
 
 type Params = Promise<{ locale: string }>;
+
+export const metadata: Metadata = {
+  title: "Cafe 39",
+  description: "This is menu of Cafe 39",
+  keywords: ["Cafe 39"],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+  },
+};
 
 export default async function LocaleLayout({
   children,

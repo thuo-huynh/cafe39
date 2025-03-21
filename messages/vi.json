@@ -24,11 +24,11 @@
   },
   "products": {
     "coffee-1": {
-      "title": "Cà phê đen sài gòn",
+      "title": "Cà phê đen Sài Gòn",
       "description": "Hương vị đậm đà của cà phê nguyên chất với độ đắng vừa phải, thưởng thức buổi sáng tuyệt vời."
     },
     "coffee-2": {
-      "title": "Cà phê sữa sài gòn",
+      "title": "Cà phê sữa Sài Gòn",
       "description": "Sự kết hợp hoàn hảo giữa cà phê đậm đà và sữa đặc béo ngậy, tạo nên hương vị hài hòa, thơm ngon."
     },
     "coffee-3": {
@@ -206,7 +206,7 @@
     "productDetail": "Chi tiết sản phẩm",
     "hot": "Nóng",
     "iced": "Lạnh",
-    "type": "Loại",
+    "type": "Có sẵn ở dạng",
     "size": "Kích cỡ"
   }
 }
