@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cafe39 - Modern Web Application
 
-## Getting Started
+A modern, internationalized web application built with Next.js 15 and React 19, featuring a beautiful UI powered by Radix UI components and Tailwind CSS.
 
-First, run the development server:
+## Scan
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![Cafe39 Menu](/public/menu.jpg)
+
+## 🚀 Features
+
+- **Modern Stack**: Built with Next.js 15 (App Router) and React 19
+- **Type Safety**: Full TypeScript support
+- **Internationalization**: Multi-language support using next-intl
+- **Beautiful UI Components**: Integrated Radix UI primitives
+- **Theming**: Dark/Light mode support with next-themes
+- **Animations**: Smooth animations with Framer Motion
+- **Loading States**: Beautiful loading states with nextjs-toploader
+- **Styling**: Modern styling with Tailwind CSS and CSS animations
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15.2.3
+- **Language**: TypeScript 5
+- **UI Components**: Radix UI
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion 12.5.0
+- **State Management**: React Server Components
+- **Package Manager**: pnpm
+- **Development Tools**: Turbopack
+
+## 📦 Project Structure
+
+```
+src/
+├── app/                   # Next.js app directory
+│   ├── [locale]/         # Internationalized routes
+│   ├── fonts/           # Custom fonts
+│   └── globals.css      # Global styles
+├── components/           # Reusable UI components
+├── constants/            # Application constants
+├── data/                # Static data and configurations
+├── enum/                # TypeScript enums
+├── i18n/                # Internationalization config
+├── lib/                 # Utility functions and shared logic
+└── types/               # TypeScript type definitions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone <repository-url>
+cd cafe39
+```
 
-## Learn More
+2. **Install dependencies**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the development server**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+pnpm dev
+```
 
-## Deploy on Vercel
+The application will be available at `http://localhost:3000`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Development Commands
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `pnpm dev` - Start development server with Turbopack
+- `pnpm build` - Build the application for production
+- `pnpm start` - Start the production server
+- `pnpm lint` - Run ESLint for code linting
+
+## 🎨 UI Components
+
+The application uses Radix UI primitives for accessible, unstyled components:
+
+- Dialog
+- Dropdown Menu
+- Radio Group
+- Scroll Area
+- Select
+- Separator
+- Tabs
+- And more...
+
+## 🌐 Internationalization
+
+The application supports multiple languages using `next-intl`. Language configurations can be found in the `messages/` directory.
+
+## 🎭 Theming
+
+Dark and light mode support is implemented using `next-themes`. The theme can be toggled using the built-in theme switcher.
+
+## 🔧 Configuration Files
+
+- `next.config.ts` - Next.js configuration
+- `tailwind.config.js` - Tailwind CSS configuration
+- `tsconfig.json` - TypeScript configuration
+- `components.json` - UI components configuration
+
+## 📱 Performance
+
+The application is optimized for performance:
+
+- Uses React Server Components where possible
+- Implements proper code splitting
+- Optimizes images and assets
+- Utilizes Turbopack for faster development builds
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is private and proprietary.
