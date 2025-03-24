@@ -63,7 +63,7 @@ export const products: Product[] = [
     description: "coffee-3.description",
     image: "/images/coffee/cafe-muoi.jpg",
     price: {
-      medium: 20000,
+      medium: 25000,
       large: null,
     },
     category: "coffee",
@@ -74,7 +74,7 @@ export const products: Product[] = [
     description: "coffee-4.description",
     image: "/images/coffee/cafe-dua.jpg",
     price: {
-      medium: 20000,
+      medium: 25000,
       large: null,
     },
     category: "coffee",
