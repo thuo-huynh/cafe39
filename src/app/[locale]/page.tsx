@@ -43,9 +43,17 @@ export default function Home() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-3xl font-bold mb-4 text-center"
+          className="text-4xl font-bold mb-4 text-center"
         >
           {t("menu")}
+        </motion.h1>
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="text-xl font-bold mb-4 text-center text-primary"
+        >
+          {t("language")}
         </motion.h1>
 
         <LanguageSwitcher currentLocale={locale} />

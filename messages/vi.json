@@ -1,6 +1,7 @@
 {
   "home": {
-    "menu": "Thực đơn"
+    "menu": "Thực đơn",
+    "language": "Chọn ngôn ngữ"
   },
   "categories": {
     "coffee": {

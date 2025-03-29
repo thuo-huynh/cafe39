@@ -1,0 +1,213 @@
+{
+  "home": {
+    "menu": "菜单",
+    "language": "选择语言"
+  },
+  "categories": {
+    "coffee": {
+      "name": "咖啡"
+    },
+    "milk-tea": {
+      "name": "奶茶"
+    },
+    "must-try": {
+      "name": "特色"
+    },
+    "tea": {
+      "name": "茶"
+    },
+    "juices": {
+      "name": "果汁"
+    },
+    "yogurt": {
+      "name": "酸奶"
+    }
+  },
+  "products": {
+    "coffee-1": {
+      "title": "西贡黑咖啡",
+      "description": "纯咖啡的浓郁风味，适中的苦味，开启美好的早晨。"
+    },
+    "coffee-2": {
+      "title": "西贡牛奶咖啡",
+      "description": "浓郁咖啡与浓稠牛奶的完美结合，创造和谐、美味的口感。"
+    },
+    "coffee-3": {
+      "title": "盐咖啡",
+      "description": "浓郁的咖啡香气与海盐的融合，创造独特风味，减少苦味，增加香气。"
+    },
+    "coffee-4": {
+      "title": "椰子咖啡",
+      "description": "咖啡与新鲜椰子汁的完美结合，带来甜美、浓郁和清爽的口感。"
+    },
+    "coffee-5": {
+      "title": "牛油果咖啡",
+      "description": "特制咖啡，与新鲜牛油果（鳄梨）完美融合，口感顺滑，营养丰富。"
+    },
+    "coffee-6": {
+      "title": "白咖啡",
+      "description": "源自华人的饮品，咖啡、炼乳和鲜奶的和谐结合，口感香甜浓郁。"
+    },
+    "coffee-7": {
+      "title": "可可",
+      "description": "使用纯可可粉制作的饮品，香浓营养，热饮冷饮均宜。"
+    },
+    "milk-tea-1": {
+      "title": "传统奶茶",
+      "description": "浓郁的红茶与牛奶结合，配上有嚼劲的珍珠，创造出浓郁美味的饮品。"
+    },
+    "milk-tea-2": {
+      "title": "泰式绿茶奶茶",
+      "description": "特色泰式绿茶与牛奶融合，带来清新芳香、甜美的口感。"
+    },
+    "milk-tea-3": {
+      "title": "泰式红茶奶茶",
+      "description": "泰式红茶的独特口感，与牛奶结合创造美丽的色彩和美味的风味。"
+    },
+    "milk-tea-4": {
+      "title": "芋头奶茶",
+      "description": "芋头的甜美浓郁与奶茶的结合，创造出美味营养的饮品。"
+    },
+    "milk-tea-5": {
+      "title": "炒米奶茶",
+      "description": "香炒米的特殊风味与奶茶结合，带来独特的香气和美味。"
+    },
+    "milk-tea-6": {
+      "title": "抹茶奶茶",
+      "description": "日本抹茶粉的微苦与牛奶结合，创造香浓清新的口感。"
+    },
+    "milk-tea-7": {
+      "title": "巧克力奶茶",
+      "description": "巧克力的苦味与牛奶的甜美浓郁完美结合，创造出香浓美味的饮品。"
+    },
+    "milk-tea-8": {
+      "title": "草莓奶茶",
+      "description": "草莓的清甜与浓郁奶茶的结合，创造出美味可口、色彩诱人的饮品。"
+    },
+    "milk-tea-9": {
+      "title": "茉莉花奶茶",
+      "description": "茉莉花茶奶茶，创造出芳香清新的饮品，有效消暑。"
+    },
+    "must-try-1": {
+      "title": "牛油果冰沙",
+      "description": "由新鲜牛油果制成的营养饮品，浓郁爽口，有益健康。"
+    },
+    "must-try-2": {
+      "title": "芒果冰沙",
+      "description": "成熟芒果的清甜口感，与冰搅拌，为夏日带来极佳的消暑饮品。"
+    },
+    "must-try-3": {
+      "title": "美禄冰沙",
+      "description": "熟悉的饮品，具有美禄特有的麦芽巧克力风味，配合冰沙清凉爽口。"
+    },
+    "must-try-4": {
+      "title": "罗望子冰",
+      "description": "罗望子的酸甜味，搭配Q弹的配料，创造出极佳的解渴饮品。"
+    },
+    "must-try-5": {
+      "title": "芦荟奇亚籽",
+      "description": "清爽的饮品，含有脆爽的芦荟和营养丰富的奇亚籽，有效消暑。"
+    },
+    "must-try-6": {
+      "title": "抹茶拿铁",
+      "description": "日本抹茶粉和鲜牛奶的和谐结合，创造出美味清新的饮品。"
+    },
+    "tea-1": {
+      "title": "姜茶",
+      "description": "由茶和新鲜姜制成的温热饮品，保持身体温暖，有益健康，特别适合寒冷季节。"
+    },
+    "tea-2": {
+      "title": "金桔茶",
+      "description": "金桔的清酸与茶的微苦完美结合，创造出有效解渴的饮品。"
+    },
+    "tea-3": {
+      "title": "柠檬茶",
+      "description": "流行的解渴饮品，柠檬的酸味与茶的微苦，易饮且清爽。"
+    },
+    "tea-4": {
+      "title": "水果茶",
+      "description": "茶与多种新鲜水果的完美结合，创造出色彩丰富、风味独特的饮品。"
+    },
+    "tea-5": {
+      "title": "刺果番荔枝茶",
+      "description": "刺果番荔枝的甜美与茶的结合，创造出芳香清爽、舒适的饮品。"
+    },
+    "tea-6": {
+      "title": "桃子话梅柑橘茶",
+      "description": "茶、桃子、话梅、柑橘和香茅的独特结合，创造出芳香清爽、酸甜适中的饮品。"
+    },
+    "tea-7": {
+      "title": "荔枝茶",
+      "description": "荔枝的甜美与茶的结合，创造出芳香清爽的饮品，适合夏季。"
+    },
+    "juices-1": {
+      "title": "菠萝汁",
+      "description": "新鲜菠萝的清甜，富含维生素C和有助消化的酶。"
+    },
+    "juices-2": {
+      "title": "橙汁",
+      "description": "新鲜橙子的天然酸甜，富含维生素C，有助提高免疫力。"
+    },
+    "juices-3": {
+      "title": "西瓜汁",
+      "description": "新鲜西瓜制成的清凉饮品，富含水分和抗氧化物质，有效消暑。"
+    },
+    "juices-4": {
+      "title": "芹菜汁",
+      "description": "新鲜芹菜制成的清爽、营养饮品，富含纤维和维生素。"
+    },
+    "juices-5": {
+      "title": "马蹄绿豆汁",
+      "description": "马蹄和绿豆制成的清爽、营养饮品，有助消暑和美容。"
+    },
+    "juices-6": {
+      "title": "百香果汁",
+      "description": "百香果的独特酸味与糖的结合，创造出酸甜可口、有效解渴的饮品。"
+    },
+    "juices-7": {
+      "title": "柠檬汁",
+      "description": "经典解渴饮品，新鲜柠檬的清酸口感。"
+    },
+    "yogurt-1": {
+      "title": "水果酸奶",
+      "description": "新鲜酸奶与多种新鲜水果的结合，创造出美味营养的饮品。"
+    },
+    "yogurt-2": {
+      "title": "蓝莓酸奶",
+      "description": "浓郁酸奶与酸甜蓝莓的完美结合，富含抗氧化物质。"
+    },
+    "yogurt-3": {
+      "title": "草莓酸奶",
+      "description": "草莓的酸甜与新鲜酸奶的结合，创造出美味的饮品，夏季理想选择。"
+    },
+    "yogurt-4": {
+      "title": "桃子酸奶",
+      "description": "桃子的甜美与新鲜酸奶的结合，创造出美味诱人的风味。"
+    },
+    "yogurt-5": {
+      "title": "菠萝蜜酸奶",
+      "description": "菠萝蜜的独特甜味与新鲜酸奶的结合，创造出美味独特的风味。"
+    },
+    "yogurt-6": {
+      "title": "焦糖布丁",
+      "description": "浓郁的甜点，香甜的焦糖味，柔软细腻，入口即化。"
+    },
+    "yogurt-7": {
+      "title": "多口味奶冻",
+      "description": "意大利甜点，柔软细腻的奶油味，配以香甜的水果酱。"
+    }
+  },
+  "common": {
+    "language": "语言",
+    "english": "英语",
+    "vietnamese": "越南语",
+    "chinese": "中文"
+  },
+  "productsDetail": {
+    "productDetail": "产品详情",
+    "hot": "热",
+    "iced": "冷",
+    "type": "提供方式",
+    "size": "大小"
+  }
+} 

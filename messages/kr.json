@@ -1,6 +1,7 @@
 {
   "home": {
-    "menu": "메뉴"
+    "menu": "메뉴",
+    "language": "언어 선택"
   },
   "categories": {
     "coffee": {
