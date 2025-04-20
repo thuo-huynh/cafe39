@@ -109,7 +109,8 @@ export function ProductCard({
           {locale === "en" ||
           locale === "kr" ||
           locale === "jp" ||
-          locale === "cn" ? (
+          locale === "cn" ||
+          locale === 'rs' ? (
             <>
               <h3 className="font-bold text-sm mb-0.5 line-clamp-1">
                 {t(product.title)}
