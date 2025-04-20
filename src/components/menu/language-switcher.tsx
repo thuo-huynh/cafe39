@@ -39,6 +39,11 @@ const languages: LanguageOption[] = [
     label: "中文",
     flagSrc: "/flag/china.png",
   },
+  {
+    locale: Locale.RS,
+    label: "Русский",
+    flagSrc: "/flag/russia.png",
+  },
 ];
 
 type Props = {

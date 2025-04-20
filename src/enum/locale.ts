@@ -4,4 +4,5 @@ export enum Locale {
   VI = "vi",
   KR = "kr",
   CN = "cn",
+  RS = "rs",
 }
