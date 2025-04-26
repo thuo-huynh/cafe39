@@ -221,7 +221,7 @@ export const products: Product[] = [
     description: "must-try-1.description",
     image: "/images/must-try/avocado.jpg",
     price: {
-      medium: 25000,
+      medium: 30000,
       large: null,
     },
     category: "must-try",
