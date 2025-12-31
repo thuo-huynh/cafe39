@@ -1,6 +1,9 @@
+"use client";
+
 import { Category, Product } from "@/types";
 import { ProductGrid } from "./product-grid";
 import { SectionHeader } from "../ui/section-header";
+import { useTranslations } from "next-intl";
 
 interface MenuSectionProps {
   category: Category;
@@ -13,9 +16,13 @@ export function MenuSection({
   products,
   onProductClick,
 }: MenuSectionProps) {
+  const t = useTranslations("categories");
+
   return (
     <div className="space-y-4 pt-4">
-      <SectionHeader title={category.name} />
+      <div id={`category-${category.id}`} className="scroll-mt-[100px]">
+        <SectionHeader title={t(`${category.id}.name`)} />
+      </div>
       <ProductGrid products={products} onProductClick={onProductClick} />
     </div>
   );
