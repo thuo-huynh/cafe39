@@ -124,7 +124,7 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto max-w-6xl px-4">
-        <div className="mb-6 mt-4 sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 pb-2 pt-2 pointer-events-auto">
+        <div className="mb-6 mt-4 sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 pb-1 pt-1 pointer-events-auto">
           <CategoryTabs
             categories={categories}
             activeCategory={activeCategory}
