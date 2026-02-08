@@ -85,7 +85,7 @@ export const products: Product[] = [
     description: "coffee-5.description",
     image: "/images/coffee/cafe-bo.jpg",
     price: {
-      medium: 25000,
+      medium: 30000,
       large: null,
     },
     category: "coffee",
@@ -158,17 +158,17 @@ export const products: Product[] = [
     },
     category: "milk-tea",
   },
-  {
-    id: "milk-tea-5",
-    title: "milk-tea-5.title",
-    description: "milk-tea-5.description",
-    image: "/images/milk-tea/gao-rang.jpg",
-    price: {
-      medium: 25000,
-      large: null,
-    },
-    category: "milk-tea",
-  },
+  // {
+  //   id: "milk-tea-5",
+  //   title: "milk-tea-5.title",
+  //   description: "milk-tea-5.description",
+  //   image: "/images/milk-tea/gao-rang.jpg",
+  //   price: {
+  //     medium: 25000,
+  //     large: null,
+  //   },
+  //   category: "milk-tea",
+  // },
   {
     id: "milk-tea-6",
     title: "milk-tea-6.title",
@@ -232,7 +232,7 @@ export const products: Product[] = [
     description: "must-try-2.description",
     image: "/images/must-try/mango.jpg",
     price: {
-      medium: 25000,
+      medium: 30000,
       large: null,
     },
     category: "must-try",
@@ -406,17 +406,17 @@ export const products: Product[] = [
     },
     category: "juices",
   },
-  {
-    id: "juices-5",
-    title: "juices-5.title",
-    description: "juices-5.description",
-    image: "/images/juice/rau-ma.jpg",
-    price: {
-      medium: 20000,
-      large: null,
-    },
-    category: "juices",
-  },
+  // {
+  //   id: "juices-5",
+  //   title: "juices-5.title",
+  //   description: "juices-5.description",
+  //   image: "/images/juice/rau-ma.jpg",
+  //   price: {
+  //     medium: 20000,
+  //     large: null,
+  //   },
+  //   category: "juices",
+  // },
   {
     id: "juices-6",
     title: "juices-6.title",
@@ -441,17 +441,17 @@ export const products: Product[] = [
   },
 
   // Yogurt
-  {
-    id: "yogurt-1",
-    title: "yogurt-1.title",
-    description: "yogurt-1.description",
-    image: "/images/yogurt/trai-cay.jpg",
-    price: {
-      medium: 25000,
-      large: null,
-    },
-    category: "yogurt",
-  },
+  // {
+  //   id: "yogurt-1",
+  //   title: "yogurt-1.title",
+  //   description: "yogurt-1.description",
+  //   image: "/images/yogurt/trai-cay.jpg",
+  //   price: {
+  //     medium: 25000,
+  //     large: null,
+  //   },
+  //   category: "yogurt",
+  // },
   {
     id: "yogurt-2",
     title: "yogurt-2.title",
@@ -507,15 +507,15 @@ export const products: Product[] = [
     },
     category: "yogurt",
   },
-  {
-    id: "yogurt-7",
-    title: "yogurt-7.title",
-    description: "yogurt-7.description",
-    image: "/images/yogurt/panna-cotta.jpg",
-    price: {
-      medium: 25000,
-      large: null,
-    },
-    category: "yogurt",
-  },
+  // {
+  //   id: "yogurt-7",
+  //   title: "yogurt-7.title",
+  //   description: "yogurt-7.description",
+  //   image: "/images/yogurt/panna-cotta.jpg",
+  //   price: {
+  //     medium: 25000,
+  //     large: null,
+  //   },
+  //   category: "yogurt",
+  // },
 ];
