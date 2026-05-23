@@ -1,0 +1,44 @@
+{
+  "nav": { "menu": "菜单", "about": "故事", "reviews": "评价", "visit": "到店", "gallery": "画廊", "hours": "营业时间", "language": "语言" },
+  "hero": {
+    "tape": "滴漏冲煮 · 地道越南咖啡",
+    "eyebrow": "越南咖啡馆 · 自2019年",
+    "title_line1": "街区最棒的",
+    "title_line2": "一杯咖啡。",
+    "sub": "地道越南咖啡馆。手冲滤漏一杯一杯来，冰沙都是真果，还有街区最温暖的问候。街坊们的清晨习惯。",
+    "cta": "查看菜单",
+    "cta2": "找到我们",
+    "stamp_rating": "4.9 / 5",
+    "stamp_count": "100+ 条评价",
+    "signature": "招牌特调"
+  },
+  "categories": { "coffee": "咖啡", "milktea": "奶茶", "smoothie": "冰沙", "juice": "果汁", "tea": "茶" },
+  "menu": { "eyebrow": "菜单", "title": "全天新鲜制作。", "items_suffix": "款", "currency": "₫", "must_try": "必试" },
+  "features": { "eyebrow": "街坊最爱", "picks_suffix": "款" },
+  "search": { "placeholder": "搜索菜单…", "no_results": "没找到匹配的 —— 换个词试试。", "clear_label": "清除" },
+  "about": {
+    "eyebrow": "我们的故事",
+    "title_line1": "二十年时光，",
+    "title_line2": "手冲滴漏，倒一杯炼乳，",
+    "title_line3": "记住每位客人的口味。",
+    "body": "Cafe bà Chín 起初只是人行道上的一张铁桌。如今我们依然手冲滴漏壶，日出便开门，客人来过两次便记住口味。每天早上一杯冰咖啡牛奶，轻松的背景音乐——这是老顾客们爱上的开始一天的方式。",
+    "quote_role": "常客"
+  },
+  "stories": { "eyebrow": "店里近况" },
+  "owner": {
+    "eyebrow": "认识店主",
+    "title": "手工冲制 · 名字相熟。",
+    "body": "二十年，每天天不亮就起床，比整条街都早开门。从人行道上的一张铁桌，变成了街区里最有名的咖啡馆，远道而来的回头客也越来越多。手冲滴漏，按家里的方子做西贡炼乳咖啡。常客们一直来，一直夸 —— 我还是每天早早开门，然后又多记住一个名字。",
+    "signoff": "— 店主",
+    "stamp": "自 2006"
+  },
+  "reviews": { "eyebrow": "口口相传", "title": "客人怎么说。", "more": "在 Google 查看更多" },
+  "gallery": { "eyebrow": "远方的朋友", "title": "来自世界各地的常客。", "sub": "客人与老板 —— 店里的瞬间。" },
+  "visit": { "eyebrow": "到店", "title": "找到门牌。", "directions": "获取路线" },
+  "payment": { "eyebrow": "支持无现金", "title": "扫码即付。", "sub": "VietQR、MoMo、ZaloPay —— 或柜台现金。" },
+  "hours": { "title": "营业时间", "mf": "周一 – 周五", "mf_time": "6:30 – 22:30", "sat": "周六", "sat_time": "7:00 – 23:00", "sun": "周日", "sun_time": "7:00 – 22:00" },
+  "opennow": { "open": "营业中", "closed": "已休息", "opens_at": "开门", "closes_at": "打烊" },
+  "cta": { "call": "致电", "zalo": "Zalo", "order": "在线点单", "call_long": "致电下单", "zalo_long": "Zalo 聊一聊" },
+  "promo": "如果您喜欢我们的咖啡，欢迎在 Google 上为我们留下评价 — 非常感谢！⭐",
+  "footer": { "tag": "以滴漏壶、炼乳和冰制成。", "copy": "© Cafe 39. 保留所有咖啡。" }
+}

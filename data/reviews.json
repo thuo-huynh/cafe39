@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Linh N.",
+    "stars": 5,
+    "date": "2 weeks ago",
+    "body": {
+      "en": "Best salt coffee in the district. Owner remembers my drink and always slips an extra biscuit on the saucer. Stayed for 3 hours, nobody rushed me.",
+      "vi": "Cà phê muối ngon nhất khu này. Chủ quán nhớ luôn món tôi hay gọi, lúc nào cũng kèm thêm cái bánh quy. Ngồi 3 tiếng không ai giục.",
+      "zh": "全区最好喝的海盐咖啡。老板记得我的常点,总会多放一块小饼干。坐了三小时也没人催。",
+      "ja": "この地区で一番のソルトコーヒー。オーナーが私の好みを覚えていて、いつもビスケットをサービスしてくれる。3時間いても誰も急かさない。",
+      "ko": "이 동네 최고의 솔트 커피. 사장님이 제 단골 메뉴를 기억하시고 늘 비스킷을 더 얹어주세요. 3시간 있어도 아무도 재촉하지 않아요.",
+      "fr": "Le meilleur café salé du quartier. Le patron se souvient de ma commande et glisse toujours un biscuit en plus. Resté 3 heures, personne ne m'a pressé.",
+      "ru": "Лучший кофе с солью в районе. Хозяин помнит мой заказ и всегда подкладывает печенье на блюдце. Просидел три часа — никто не торопил."
+    }
+  },
+  {
+    "name": "Marc D.",
+    "stars": 5,
+    "date": "1 month ago",
+    "body": {
+      "en": "Wandered in for a coconut coffee on a humid afternoon. Left with a new favorite spot. The avocado smoothie is unreal — thick, just sweet enough, big glass.",
+      "vi": "Ghé vào uống cà phê dừa giữa trưa nóng. Ra về kèm theo một quán tủ mới. Sinh tố bơ siêu đỉnh — đặc, ngọt vừa, ly to.",
+      "zh": "湿热的午后随便走进来点了杯椰子咖啡,结果发现新爱店。牛油果冰沙超棒 —— 浓稠、甜度刚好、大杯。",
+      "ja": "蒸し暑い午後にふらりと寄ってココナッツコーヒーを。新しいお気に入りに。アボカドスムージーは絶品 — 濃厚、甘さ控えめ、大ぶり。",
+      "ko": "후덥지근한 오후에 코코넛 커피 한 잔 하러 들렀다가 단골이 됐어요. 아보카도 스무디 정말 끝내줘요 — 진하고 적당히 달고, 잔도 커요.",
+      "fr": "Entré pour un café coco un après-midi humide. Reparti avec un nouveau spot favori. Le smoothie à l'avocat est dingue — épais, juste assez sucré, grand verre.",
+      "ru": "Зашёл за кокосовым кофе душным днём. Ушёл с новым любимым местом. Смузи из авокадо невероятный — густой, в меру сладкий, большой стакан."
+    }
+  },
+  {
+    "name": "Hana K.",
+    "stars": 5,
+    "date": "3 weeks ago",
+    "body": {
+      "en": "Tiny place, big personality. Try the bạc xỉu. Cash only at the counter — bring small notes. Plug points by the window seats, decent wifi.",
+      "vi": "Quán nhỏ mà gu lắm. Thử bạc xỉu nhé. Quầy chỉ nhận tiền mặt — mang tiền lẻ. Có ổ điện gần cửa sổ, wifi ổn.",
+      "zh": "小店气场足。一定试试 bạc xỉu。柜台只收现金 —— 带些零钱。窗边有插座,wifi 还行。",
+      "ja": "小さなお店だけど個性十分。バクシウを試して。レジは現金のみ — 小銭を忘れずに。窓際にコンセントあり、Wi-Fiも普通。",
+      "ko": "작지만 매력 가득한 카페. 박씨우 꼭 드셔보세요. 계산대는 현금만 — 잔돈 챙기세요. 창가에 콘센트 있고, 와이파이도 괜찮아요.",
+      "fr": "Petit lieu, gros caractère. Essayez le bạc xỉu. Comptoir en espèces — prévoir de la monnaie. Prises près des fenêtres, wifi correct.",
+      "ru": "Маленькое место, большой характер. Попробуйте бакщиу. На кассе только наличные — берите мелкие купюры. У окна есть розетки, Wi-Fi нормальный."
+    }
+  },
+  {
+    "name": "Tuấn P.",
+    "stars": 4,
+    "date": "2 months ago",
+    "body": {
+      "en": "Solid neighborhood coffee. Phin coffee is excellent, smoothies fresh. Gets busy 8–9am, plan accordingly. Staff are kind to a fault.",
+      "vi": "Cà phê xóm chuẩn bài. Phin pha rất ngon, sinh tố tươi. 8-9h sáng đông, canh giờ. Nhân viên thì khỏi chê.",
+      "zh": "扎实的街区咖啡。滴漏咖啡很棒,冰沙新鲜。早上 8-9 点会很挤,记得错峰。店员特别热情。",
+      "ja": "近所のしっかりしたコーヒー店。フィンコーヒーは絶品、スムージーもフレッシュ。朝8-9時は混むので時間を考えて。店員さんは親切すぎるくらい。",
+      "ko": "동네 카페로 든든해요. 핀 커피 훌륭하고 스무디도 신선. 8-9시는 붐비니 시간 계획 잘하세요. 직원분들 정말 친절해요.",
+      "fr": "Solide café de quartier. Le phin est excellent, smoothies frais. Bondé entre 8h et 9h, à anticiper. Personnel adorable.",
+      "ru": "Крепкая местная кофейня. Фин отличный, смузи свежие. С 8 до 9 утра шумно — планируйте. Персонал — само радушие."
+    }
+  },
+  {
+    "name": "Sophie L.",
+    "stars": 5,
+    "date": "1 week ago",
+    "body": {
+      "en": "Came back three days in a row. Owner taught me the difference between Robusta and Arabica. Salt coffee converted my friend who 'doesn't like coffee.'",
+      "vi": "Ba ngày liên tiếp ghé. Chủ quán dạy mình phân biệt Robusta với Arabica. Cà phê muối làm đứa bạn 'không thích cà phê' phải đổi ý.",
+      "zh": "连续三天去。老板教我分辨罗布斯塔和阿拉比卡。海盐咖啡让我那个'不爱咖啡'的朋友彻底改观。",
+      "ja": "三日連続で通いました。オーナーがロブスタとアラビカの違いを教えてくれた。ソルトコーヒーで「コーヒー苦手」な友人が改宗。",
+      "ko": "삼 일 연속 방문. 사장님이 로부스타랑 아라비카 차이를 알려주셨어요. 솔트 커피로 '커피 안 좋아하는' 친구가 입덕했어요.",
+      "fr": "Revenu trois jours d'affilée. Le patron m'a expliqué la différence Robusta/Arabica. Le café salé a converti mon ami qui 'n'aime pas le café'.",
+      "ru": "Возвращался три дня подряд. Хозяин объяснил разницу между робустой и арабикой. Кофе с солью обратил в кофейную веру друга, который «не любит кофе»."
+    }
+  }
+]

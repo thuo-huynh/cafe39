@@ -1,121 +1,137 @@
-# Cafe39 - Modern Web Application
+# Cafe Cafe39 — Menu Website
 
-A modern, internationalized web application built with Next.js 15 and React 19, featuring a beautiful UI powered by Radix UI components and Tailwind CSS.
+Multilingual digital menu and landing page for **Cafe Cafe39**, a neighbourhood coffee shop in Đà Nẵng, Vietnam. Est. 2006.
 
-## Scan
+**Live:** [cafe39.vercel.app](https://cafe39.vercel.app) · **Address:** 39 Nguyễn Thiện Kế, An Hải, Sơn Trà, Đà Nẵng
 
-![Cafe39 Menu](/public/menu.jpg)
+---
 
-## 🚀 Features
+## Features
 
-- **Modern Stack**: Built with Next.js 15 (App Router) and React 19
-- **Type Safety**: Full TypeScript support
-- **Internationalization**: Multi-language support using next-intl
-- **Beautiful UI Components**: Integrated Radix UI primitives
-- **Theming**: Dark/Light mode support with next-themes
-- **Animations**: Smooth animations with Framer Motion
-- **Loading States**: Beautiful loading states with nextjs-toploader
-- **Styling**: Modern styling with Tailwind CSS and CSS animations
+- **Multilingual** — 7 languages: Vietnamese, English, Chinese, Japanese, Korean, French, Russian
+- **Full menu** — 5 categories (Coffee, Milk Tea, Smoothie, Juice, Tea) with photos and prices
+- **Video stories** — Instagram-style story viewer with local MP4 videos
+- **Customer gallery** — Polaroid-style photo wall of regulars
+- **Live open/closed status** — based on shop hours
+- **Google review link** — promo banner links directly to Google Maps review page
+- **VietQR payment** — real QR code for MB Bank (DANG THI CHIN)
+- **Sticky category nav** — filter bar stays pinned while scrolling the menu on mobile
+- **Static export** — fast, no server required, deploys to Vercel in one click
 
-## 🛠️ Tech Stack
+---
 
-- **Framework**: Next.js 15.2.3
-- **Language**: TypeScript 5
-- **UI Components**: Radix UI
-- **Styling**: Tailwind CSS 4
-- **Animations**: Framer Motion 12.5.0
-- **State Management**: React Server Components
-- **Package Manager**: pnpm
-- **Development Tools**: Turbopack
+## Tech Stack
 
-## 📦 Project Structure
+| | |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| i18n | next-intl v3 |
+| Styling | Inline CSS-in-JS (landing-styles.ts) |
+| Output | Static export (`output: 'export'`) |
+| Deployment | Vercel |
+
+---
+
+## Project Structure
 
 ```
-src/
-├── app/                   # Next.js app directory
-│   ├── [locale]/         # Internationalized routes
-│   ├── fonts/           # Custom fonts
-│   └── globals.css      # Global styles
-├── components/           # Reusable UI components
-├── constants/            # Application constants
-├── data/                # Static data and configurations
-├── enum/                # TypeScript enums
-├── i18n/                # Internationalization config
-├── lib/                 # Utility functions and shared logic
-└── types/               # TypeScript type definitions
+cafe39/
+├── app/                        # Next.js App Router pages
+│   └── [locale]/               # Locale-based routing (en, vi, zh, ja, ko, fr, ru)
+├── components/
+│   ├── Landing.tsx             # Main page layout
+│   ├── MenuBlocks.tsx          # Menu with search + category filter
+│   ├── HeroCard.tsx            # Hero image card with rating stamp
+│   ├── StoriesStrip.tsx        # Story circles (server, reads videos/)
+│   ├── StoriesClient.tsx       # Story fullscreen modal (client)
+│   ├── OwnerStory.tsx          # Owner biography section
+│   ├── PaymentQR.tsx           # VietQR payment section
+│   ├── PromoBanner.tsx         # Top banner with Google review link
+│   └── landing-styles.ts      # All CSS as a tagged template string
+├── data/
+│   ├── menu.json               # All menu items (id, price, image, names in 7 langs)
+│   ├── friends.json            # Customer gallery photos
+│   ├── reviews.json            # Customer reviews
+│   └── translations/           # i18n strings per locale (en.json, vi.json, …)
+├── lib/
+│   ├── config.ts               # Brand info, address, hours, payment, story labels
+│   └── types.ts                # TypeScript interfaces
+└── public/
+    ├── images/
+    │   ├── coffee/             # Coffee item photos
+    │   ├── milk-tea/
+    │   ├── smoothie/
+    │   ├── juice/
+    │   ├── tea/
+    │   ├── must-try/
+    │   ├── owner/              # Owner portrait
+    │   └── customers/          # Customer gallery photos
+    ├── videos/stories/         # MP4 files for story viewer
+    └── qr/                     # VietQR payment image
 ```
 
-## 🚀 Getting Started
+---
 
-1. **Clone the repository**
+## Getting Started
 
 ```bash
-git clone <repository-url>
-cd cafe39
+npm install
+npm run dev
 ```
 
-2. **Install dependencies**
+Open [http://localhost:3000](http://localhost:3000) — it redirects to `/vi` (Vietnamese) by default.
 
-```bash
-pnpm install
+---
+
+## Updating Content
+
+### Add / remove a menu item
+Edit `data/menu.json`. Each item follows this shape:
+```json
+{
+  "id": "unique-id",
+  "price": 25,
+  "img": "/images/coffee/my-drink.jpg",
+  "names": {
+    "en": "Salt Coffee", "vi": "Cà phê muối",
+    "zh": "...", "ja": "...", "ko": "...", "fr": "...", "ru": "..."
+  }
+}
+```
+Add a `"highlight": "Must Try"` field to mark an item with a ⭐ badge.
+
+### Add a video story
+Drop an `.mp4` file into `public/videos/stories/`. Stories are loaded automatically sorted by filename. Update `STORY_LABELS` in `lib/config.ts` to add a label for the new video.
+
+### Add a customer photo
+1. Put the image in `public/images/customers/`
+2. Add an entry to `data/friends.json`:
+```json
+{ "id": "f3", "flag": "🇻🇳", "name": "Khách quen", "date": "JAN 25", "placeholder": "...", "img": "/images/customers/photo.jpg" }
 ```
 
-3. **Run the development server**
+### Update opening hours
+Edit the `HOURS` object in `lib/config.ts`.
 
-```bash
-pnpm dev
-```
+### Update translations
+Edit the relevant key in `data/translations/{locale}.json`. All 7 locale files should stay in sync.
 
-The application will be available at `http://localhost:3000`
+---
 
-## 🛠️ Development Commands
+## Deployment
 
-- `pnpm dev` - Start development server with Turbopack
-- `pnpm build` - Build the application for production
-- `pnpm start` - Start the production server
-- `pnpm lint` - Run ESLint for code linting
+Push to GitHub and import the repo on [vercel.com](https://vercel.com). No extra configuration needed — Vercel detects Next.js automatically and runs `next build`.
 
-## 🎨 UI Components
+The static output is served from the `/out` directory. No environment variables are required.
 
-The application uses Radix UI primitives for accessible, unstyled components:
+---
 
-- Dialog
-- Dropdown Menu
-- Radio Group
-- Scroll Area
-- Select
-- Separator
-- Tabs
-- And more...
+## Shop Info
 
-## 🌐 Internationalization
-
-The application supports multiple languages using `next-intl`. Language configurations can be found in the `messages/` directory.
-
-## 🎭 Theming
-
-Dark and light mode support is implemented using `next-themes`. The theme can be toggled using the built-in theme switcher.
-
-## 🔧 Configuration Files
-
-- `next.config.ts` - Next.js configuration
-- `tailwind.config.js` - Tailwind CSS configuration
-- `tsconfig.json` - TypeScript configuration
-- `components.json` - UI components configuration
-
-## 📱 Performance
-
-The application is optimized for performance:
-
-- Uses React Server Components where possible
-- Implements proper code splitting
-- Optimizes images and assets
-- Utilizes Turbopack for faster development builds
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is private and proprietary.
+| | |
+|---|---|
+| Name | Cafe Cafe39 |
+| Address | 39 Nguyễn Thiện Kế, An Hải, Sơn Trà, Đà Nẵng |
+| Phone | +84 935 556 808 |
+| Hours | Mon–Fri 06:30–22:30 · Sat 07:00–23:00 · Sun 07:00–22:00 |
+| Payment | VietQR / MB Bank (DANG THI CHIN) |

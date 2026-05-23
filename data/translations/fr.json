@@ -1,0 +1,44 @@
+{
+  "nav": { "menu": "Carte", "about": "Histoire", "reviews": "Avis", "visit": "Visiter", "gallery": "Galerie", "hours": "Horaires", "language": "Langue" },
+  "hero": {
+    "tape": "Phin · Vrai café vietnamien",
+    "eyebrow": "Café vietnamien · depuis 2019",
+    "title_line1": "Le meilleur café",
+    "title_line2": "du quartier.",
+    "sub": "Un vrai café vietnamien. Phin passé à la main tasse par tasse, vrais fruits dans chaque smoothie, et l'accueil le plus chaleureux du pâté de maisons. Les habitués en font leur rituel du matin.",
+    "cta": "Voir la carte",
+    "cta2": "Nous trouver",
+    "stamp_rating": "4.9 / 5",
+    "stamp_count": "100+ avis",
+    "signature": "Spécialité maison"
+  },
+  "categories": { "coffee": "Café", "milktea": "Thé au lait", "smoothie": "Smoothies", "juice": "Jus", "tea": "Thé" },
+  "menu": { "eyebrow": "La carte", "title": "Préparés frais, toute la journée.", "items_suffix": "articles", "currency": "₫", "must_try": "À essayer" },
+  "features": { "eyebrow": "Plébiscité par les habitués", "picks_suffix": "choix" },
+  "search": { "placeholder": "Chercher dans la carte…", "no_results": "Rien ne correspond — essayez un autre mot.", "clear_label": "Effacer" },
+  "about": {
+    "eyebrow": "Notre histoire",
+    "title_line1": "Vingt ans à tirer le phin,",
+    "title_line2": "verser le lait concentré,",
+    "title_line3": "et retenir vos commandes.",
+    "body": "Cafe bà Chín a commencé avec une seule table en fer sur le trottoir. Aujourd'hui encore, nous infusons le phin à la main, ouvrons dès l'aube, et connaissons votre commande dès la deuxième visite. Chaque matin, un café au lait glacé et une musique douce en fond — c'est le rituel que les habitués ne veulent plus quitter.",
+    "quote_role": "habitué"
+  },
+  "stories": { "eyebrow": "Dernières nouvelles" },
+  "owner": {
+    "eyebrow": "Le patron",
+    "title": "Tirées à la main. Servies par votre prénom.",
+    "body": "Vingt ans à me lever avant l'aube, à ouvrir avant que le quartier ne s'éveille. Ce qui a commencé par une seule table en fer sur le trottoir est devenu le café le plus connu du coin — et des habitués viennent de loin rien que pour revenir. Café phin tiré à la main, café au lait de Saïgon à la façon de la maison. Les clients reviennent, ils recommandent. J'ouvre encore tôt chaque matin — et j'apprends un nouveau prénom.",
+    "signoff": "— Le patron",
+    "stamp": "DEPUIS 2006"
+  },
+  "reviews": { "eyebrow": "Bouche à oreille", "title": "Ce que disent les clients.", "more": "Voir plus sur Google" },
+  "gallery": { "eyebrow": "Amis de la maison", "title": "Des habitués venus de partout.", "sub": "Clients et propriétaire — moments du café." },
+  "visit": { "eyebrow": "Venir", "title": "Trouver la porte.", "directions": "Itinéraire" },
+  "payment": { "eyebrow": "Sans contact bienvenu", "title": "Scannez pour payer.", "sub": "VietQR, MoMo, ZaloPay — ou espèces au comptoir." },
+  "hours": { "title": "Horaires", "mf": "Lun – Ven", "mf_time": "6:30 – 22:30", "sat": "Samedi", "sat_time": "7:00 – 23:00", "sun": "Dimanche", "sun_time": "7:00 – 22:00" },
+  "opennow": { "open": "Ouvert", "closed": "Fermé", "opens_at": "Ouvre à", "closes_at": "Ferme à" },
+  "cta": { "call": "Appeler", "zalo": "Zalo", "order": "Commander en ligne", "call_long": "Appeler pour commander", "zalo_long": "Discuter sur Zalo" },
+  "promo": "Vous avez aimé votre visite ? Laissez-nous un avis sur Google — merci beaucoup ! ⭐",
+  "footer": { "tag": "Fait au phin, au lait concentré, et à la glace.", "copy": "© Cafe 39. Toutes tasses réservées." }
+}

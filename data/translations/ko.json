@@ -1,0 +1,44 @@
+{
+  "nav": { "menu": "메뉴", "about": "이야기", "reviews": "리뷰", "visit": "방문", "gallery": "갤러리", "hours": "영업시간", "language": "언어" },
+  "hero": {
+    "tape": "핀 드립 · 진짜 베트남 커피",
+    "eyebrow": "베트남 카페 · 2019년부터",
+    "title_line1": "동네 최고의",
+    "title_line2": "커피 한 잔.",
+    "sub": "진짜 베트남 카페. 핀 드리퍼로 한 잔씩 내리고, 스무디는 생과일로, 동네 제일 따뜻한 환대까지. 단골들의 아침 루틴이에요.",
+    "cta": "메뉴 보기",
+    "cta2": "오시는 길",
+    "stamp_rating": "4.9 / 5",
+    "stamp_count": "100+ 리뷰",
+    "signature": "시그니처"
+  },
+  "categories": { "coffee": "커피", "milktea": "밀크티", "smoothie": "스무디", "juice": "주스", "tea": "차" },
+  "menu": { "eyebrow": "메뉴", "title": "하루 종일 신선하게.", "items_suffix": "종", "currency": "₫", "must_try": "꼭 드세요" },
+  "features": { "eyebrow": "동네 픽", "picks_suffix": "픽" },
+  "search": { "placeholder": "메뉴 검색…", "no_results": "검색 결과 없음 — 다른 단어로 시도해 보세요.", "clear_label": "지우기" },
+  "about": {
+    "eyebrow": "우리의 이야기",
+    "title_line1": "20년 동안 핀을 내리고,",
+    "title_line2": "연유를 따르며,",
+    "title_line3": "모두의 단골 메뉴를 외웠습니다.",
+    "body": "Cafe bà Chín은 인도 위 작은 철제 테이블 하나로 시작했습니다. 지금도 손으로 핀을 내리고, 해 뜰 때 문을 열고, 두 번째 방문이면 늘 드시는 걸 기억합니다. 매일 아침 아이스 밀크커피 한 잔, 잔잔한 음악과 함께 하루를 시작하는 것 — 단골들이 이야기하는 일상 루틴이에요.",
+    "quote_role": "단골"
+  },
+  "stories": { "eyebrow": "최근 가게 소식" },
+  "owner": {
+    "eyebrow": "사장님 소개",
+    "title": "직접 내립니다. 이름으로 불러요.",
+    "body": "스무 해 동안 날이 밝기 전에 일어나 동네가 깨어나기 전에 문을 열었어요. 인도 위 작은 철제 테이블 하나에서 시작해, 이제는 이 동네에서 제일 유명한 카페가 됐고 멀리서 일부러 찾아오는 단골도 생겼어요. 핀을 한 잔씩 내리고, 사이공 연유커피는 가족 방식대로. 손님들이 좋다고 해주시는 덕분에 오늘도 일찍 문을 열어요 — 그리고 또 한 분의 이름을 기억합니다.",
+    "signoff": "— 사장",
+    "stamp": "2006년부터"
+  },
+  "reviews": { "eyebrow": "입소문", "title": "손님들의 말씀.", "more": "Google 에서 더 보기" },
+  "gallery": { "eyebrow": "멀리서 온 친구들", "title": "세계 곳곳의 단골손님들.", "sub": "손님과 사장님 — 카페의 한 장면." },
+  "visit": { "eyebrow": "방문", "title": "문 앞까지.", "directions": "길찾기" },
+  "payment": { "eyebrow": "현금 없이 OK", "title": "스캔해서 결제.", "sub": "VietQR, MoMo, ZaloPay — 또는 현장 현금." },
+  "hours": { "title": "영업시간", "mf": "월 – 금", "mf_time": "6:30 – 22:30", "sat": "토요일", "sat_time": "7:00 – 23:00", "sun": "일요일", "sun_time": "7:00 – 22:00" },
+  "opennow": { "open": "영업 중", "closed": "영업 종료", "opens_at": "오픈", "closes_at": "마감" },
+  "cta": { "call": "전화", "zalo": "Zalo", "order": "온라인 주문", "call_long": "전화 주문", "zalo_long": "Zalo로 채팅" },
+  "promo": "저희 카페가 마음에 드셨다면 Google에 리뷰를 남겨주세요 — 정말 큰 힘이 됩니다! ⭐",
+  "footer": { "tag": "핀, 연유, 얼음으로.", "copy": "© Cafe 39. 모든 잔을 소중하게." }
+}

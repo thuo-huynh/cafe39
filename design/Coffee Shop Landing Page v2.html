@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#27301f" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<title>Cafe 39 · Landing Page Concepts</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" />
+
+<style>
+  html, body { margin: 0; padding: 0; background: #efeae2; scroll-behavior: smooth; }
+  body { font-family: ui-sans-serif, system-ui, sans-serif; }
+  #root { min-height: 100vh; }
+</style>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#27301f">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#27301f"/>
+    <circle cx="600" cy="400" r="180" fill="none" stroke="#7d9166" stroke-width="14"/>
+    <text x="600" y="438" font-family="serif" font-size="180" font-style="italic" fill="#e3dcc8" text-anchor="middle">39</text>
+    <text x="600" y="640" font-family="monospace" font-size="36" letter-spacing="12" fill="#7d9166" text-anchor="middle">CAFE 39</text>
+  </svg>
+</template>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="data.js"></script>
+<script src="image-slot.js"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="shared.jsx"></script>
+<script type="text/babel" src="features.jsx"></script>
+<script type="text/babel" src="menu-layouts.jsx"></script>
+<script type="text/babel" src="landing-b.jsx"></script>
+
+<script type="text/babel">
+const { useState, useEffect } = React;
+
+// Curated palettes — warm, cozy, earthy. Each is [bg, paper, ink, muted, accent, rule].
+const PALETTES = {
+  cream: {
+    name: 'Cream & Cocoa',
+    bg: '#f5efe4',
+    paper: '#ebe2d2',
+    ink: '#2a1e14',
+    muted: '#6b594a',
+    accent: '#a8633a',
+    rule: '#d9cdb8',
+  },
+  espresso: {
+    name: 'Espresso',
+    bg: '#2a1e16',
+    paper: '#3a2b21',
+    ink: '#f3e9d8',
+    muted: '#c4ad95',
+    accent: '#e0a060',
+    rule: '#5a4636',
+  },
+  caramel: {
+    name: 'Caramel',
+    bg: '#efe4d0',
+    paper: '#e3d4b8',
+    ink: '#3a2814',
+    muted: '#7a5d3f',
+    accent: '#c97435',
+    rule: '#d4be9a',
+  },
+  matcha: {
+    name: 'Matcha & Oat',
+    bg: '#f0ece1',
+    paper: '#e3dcc8',
+    ink: '#27301f',
+    muted: '#5d6c52',
+    accent: '#7d9166',
+    rule: '#cfc9b2',
+  },
+};
+
+const FONTPAIRS = {
+  editorial: {
+    name: 'Editorial',
+    display: '"DM Serif Display", "Cormorant Garamond", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", serif',
+    body: '"Manrope", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", system-ui, sans-serif',
+  },
+  boutique: {
+    name: 'Boutique',
+    display: '"Instrument Serif", "Cormorant Garamond", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", serif',
+    body: '"Bricolage Grotesque", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", system-ui, sans-serif',
+  },
+  classic: {
+    name: 'Classic',
+    display: '"Libre Caslon Text", "Cormorant Garamond", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", serif',
+    body: '"Manrope", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", system-ui, sans-serif',
+  },
+};
+
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "palette": "matcha",
+  "fonts": "classic",
+  "lang": "vi",
+  "menu_layout": "list",
+  "sec_menu": true,
+  "sec_about": true,
+  "sec_reviews": true,
+  "sec_visit": true,
+  "sec_hours": true,
+  "sec_gallery": true
+}/*EDITMODE-END*/;
+
+function App() {
+  const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
+
+  // expose lang setter for the in-nav LangPicker
+  useEffect(() => {
+    window.__lang = t.lang;
+    window.__setLang = (code) => setTweak('lang', code);
+    window.dispatchEvent(new CustomEvent('langchange', { detail: t.lang }));
+  }, [t.lang]);
+
+  const palette = PALETTES[t.palette] || PALETTES.cream;
+  const fonts = FONTPAIRS[t.fonts] || FONTPAIRS.editorial;
+  const sections = {
+    menu: t.sec_menu, about: t.sec_about, reviews: t.sec_reviews,
+    visit: t.sec_visit, hours: t.sec_hours, gallery: t.sec_gallery,
+  };
+
+  const sharedProps = { lang: t.lang, sections, palette, fonts, menuLayout: t.menu_layout };
+
+  return (
+    <>
+      <LandingB {...sharedProps} />
+
+      <TweaksPanel title="Tweaks">
+        <TweakSection label="Theme" />
+        <TweakColor
+          label="Palette"
+          value={[palette.bg, palette.ink, palette.accent, palette.paper]}
+          options={Object.values(PALETTES).map((p) => [p.bg, p.ink, p.accent, p.paper])}
+          onChange={(v) => {
+            const key = Object.keys(PALETTES).find((k) => PALETTES[k].bg === v[0]);
+            if (key) setTweak('palette', key);
+          }}
+        />
+        <TweakRadio
+          label="Fonts"
+          value={t.fonts}
+          options={['editorial', 'boutique', 'classic']}
+          onChange={(v) => setTweak('fonts', v)}
+        />
+
+        <TweakSection label="Language" />
+        <TweakRadio
+          label="Display in"
+          value={t.lang}
+          options={LANGS.map((l) => ({ value: l.code, label: l.flag }))}
+          onChange={(v) => setTweak('lang', v)}
+        />
+
+        <TweakSection label="Menu layout" />
+        <TweakSelect
+          label="Display"
+          value={t.menu_layout}
+          options={[
+            { value: 'sticky',    label: 'A · Sticky photo + list' },
+            { value: 'list',      label: 'B · Editorial list' },
+            { value: 'carousel',  label: 'C · Horizontal carousels' },
+            { value: 'bento',     label: 'D · Bento grid' },
+            { value: 'vintage',   label: 'E · Vintage menu (no photos)' },
+            { value: 'spotlight', label: 'F · Spotlight slideshow' },
+          ]}
+          onChange={(v) => setTweak('menu_layout', v)}
+        />
+
+        <TweakSection label="Sections" />
+        <TweakToggle label="Menu" value={t.sec_menu} onChange={(v) => setTweak('sec_menu', v)} />
+        <TweakToggle label="About / story" value={t.sec_about} onChange={(v) => setTweak('sec_about', v)} />
+        <TweakToggle label="Reviews" value={t.sec_reviews} onChange={(v) => setTweak('sec_reviews', v)} />
+        <TweakToggle label="Location" value={t.sec_visit} onChange={(v) => setTweak('sec_visit', v)} />
+        <TweakToggle label="Hours" value={t.sec_hours} onChange={(v) => setTweak('sec_hours', v)} />
+        <TweakToggle label="Friends wall" value={t.sec_gallery} onChange={(v) => setTweak('sec_gallery', v)} />
+      </TweaksPanel>
+    </>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

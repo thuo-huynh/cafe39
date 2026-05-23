@@ -1,0 +1,44 @@
+{
+  "nav": { "menu": "メニュー", "about": "ストーリー", "reviews": "レビュー", "visit": "アクセス", "gallery": "ギャラリー", "hours": "営業時間", "language": "言語" },
+  "hero": {
+    "tape": "フィン抽出 · 本場のベトナムコーヒー",
+    "eyebrow": "ベトナムカフェ · 2019年から",
+    "title_line1": "街で一番の",
+    "title_line2": "コーヒー。",
+    "sub": "本場のベトナムコーヒーを一杯ずつ手淹れ。スムージーはフルーツたっぷり、街一のあったかいもてなしも。地元客の朝の習慣です。",
+    "cta": "メニューを見る",
+    "cta2": "お店を探す",
+    "stamp_rating": "4.9 / 5",
+    "stamp_count": "100+ レビュー",
+    "signature": "看板の一杯"
+  },
+  "categories": { "coffee": "コーヒー", "milktea": "ミルクティー", "smoothie": "スムージー", "juice": "ジュース", "tea": "茶" },
+  "menu": { "eyebrow": "メニュー", "title": "一日中、淹れたて。", "items_suffix": "品", "currency": "₫", "must_try": "必飲" },
+  "features": { "eyebrow": "地元の人気者", "picks_suffix": "選" },
+  "search": { "placeholder": "メニューを検索…", "no_results": "見つかりません — 別の言葉でお試しを。", "clear_label": "クリア" },
+  "about": {
+    "eyebrow": "私たちの物語",
+    "title_line1": "二十年間、フィンを淹れ、",
+    "title_line2": "練乳を注ぎ、",
+    "title_line3": "お客様の好みを覚えてきました。",
+    "body": "Cafe bà Chín は歩道の鉄テーブル一つから始まりました。今も手淹れのフィン、日の出からの開店、二度目で覚える「いつもの」は変わりません。毎朝アイスミルクコーヒー一杯と静かな音楽で一日をスタート — 常連さんが続ける朝の習慣です。",
+    "quote_role": "常連"
+  },
+  "stories": { "eyebrow": "最近のお店" },
+  "owner": {
+    "eyebrow": "オーナーの紹介",
+    "title": "手淹れ。名前で呼びます。",
+    "body": "二十年間、夜明け前に起きて街が目覚める前に扉を開けてきました。歩道の鉄テーブル一つから始まり、今では界隈で一番通われる店になり、遠くからわざわざ来てくださる常連さんも増えました。フィンを一杯ずつ手淹れ、サイゴンミルクコーヒーは家のレシピで。お褒めの言葉をいただきながら、今日も早起きして — また一人、名前を覚えます。",
+    "signoff": "— オーナー",
+    "stamp": "2006年〜"
+  },
+  "reviews": { "eyebrow": "口コミ", "title": "お客様の声。", "more": "Google でもっと見る" },
+  "gallery": { "eyebrow": "遠くからの友達", "title": "世界中からの常連さん。", "sub": "お客様とオーナー — お店の一コマ。" },
+  "visit": { "eyebrow": "アクセス", "title": "玄関までの道。", "directions": "経路案内" },
+  "payment": { "eyebrow": "キャッシュレス対応", "title": "スキャンして支払い。", "sub": "VietQR、MoMo、ZaloPay — もちろん現金もOK。" },
+  "hours": { "title": "営業時間", "mf": "月 – 金", "mf_time": "6:30 – 22:30", "sat": "土曜日", "sat_time": "7:00 – 23:00", "sun": "日曜日", "sun_time": "7:00 – 22:00" },
+  "opennow": { "open": "営業中", "closed": "閉店中", "opens_at": "開店", "closes_at": "閉店" },
+  "cta": { "call": "電話", "zalo": "Zalo", "order": "ネット注文", "call_long": "電話で注文", "zalo_long": "Zaloでチャット" },
+  "promo": "ご来店ありがとうございます。Google でぜひレビューをお願いします — とても励みになります！⭐",
+  "footer": { "tag": "フィン、練乳、氷でつくりました。", "copy": "© Cafe 39. 全てのカップを大切に。" }
+}

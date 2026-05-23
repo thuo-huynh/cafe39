@@ -1,0 +1,44 @@
+{
+  "nav": { "menu": "Thực đơn", "about": "Câu chuyện", "reviews": "Đánh giá", "visit": "Ghé thăm", "gallery": "Hình ảnh", "hours": "Giờ mở cửa", "language": "Ngôn ngữ" },
+  "hero": {
+    "tape": "Pha Phin · Cà phê Việt thứ thiệt",
+    "eyebrow": "Quán cà phê Việt · từ 2019",
+    "title_line1": "Cà phê ngon nhất",
+    "title_line2": "trong khu phố.",
+    "sub": "Quán cà phê Việt thứ thiệt. Pha phin từng ly, sinh tố trái cây tươi, và nụ cười ấm áp nhất dãy phố. Khách quen gọi tụi mình là thói quen buổi sáng.",
+    "cta": "Xem thực đơn",
+    "cta2": "Tìm quán",
+    "stamp_rating": "4.9 / 5",
+    "stamp_count": "100+ đánh giá",
+    "signature": "Đặc trưng của quán"
+  },
+  "categories": { "coffee": "Cà Phê", "milktea": "Trà Sữa", "smoothie": "Sinh Tố", "juice": "Nước Ép", "tea": "Trà" },
+  "menu": { "eyebrow": "Thực đơn", "title": "Pha tươi, cả ngày.", "items_suffix": "món", "currency": "đ", "must_try": "Phải Thử" },
+  "features": { "eyebrow": "Khách quen mê tít", "picks_suffix": "lựa chọn" },
+  "search": { "placeholder": "Tìm món…", "no_results": "Không có món nào khớp — thử từ khác nhé.", "clear_label": "Xóa" },
+  "about": {
+    "eyebrow": "Câu Chuyện",
+    "title_line1": "Hai mươi năm pha phin,",
+    "title_line2": "rót sữa đặc, và",
+    "title_line3": "thuộc nằm lòng món của bạn.",
+    "body": "Cafe bà Chín bắt đầu chỉ với một chiếc bàn sắt trên vỉa hè. Đến nay vẫn pha phin từng ly, vẫn mở cửa từ sớm, và vẫn nhớ món bạn hay gọi sau lần thứ hai. Mỗi sáng một ly cà phê sữa đá, nhạc chill nhẹ nhàng — cách bắt đầu ngày mới mà khách quen hay kể lại.",
+    "quote_role": "khách quen"
+  },
+  "stories": { "eyebrow": "Gần đây tại quán" },
+  "owner": {
+    "eyebrow": "Gặp chủ quán",
+    "title": "Tay pha. Nhớ tên.",
+    "body": "Hai mươi năm dậy từ tờ mờ sáng, mở cửa trước khi cả xóm thức. Bắt đầu chỉ với một chiếc bàn sắt nhỏ trên vỉa hè — giờ thành quán quen của cả khu phố, rồi cả khách phương xa tìm đến. Pha phin từng ly, rót cà phê sữa Sài Gòn theo nếp nhà. Khách khen nhiều, mình vẫn mở cửa sớm như mọi ngày — và nhớ thêm một tên nữa.",
+    "signoff": "— Chủ quán",
+    "stamp": "TỪ 2006"
+  },
+  "reviews": { "eyebrow": "Khách kể", "title": "Khách nói gì về quán.", "more": "Xem thêm trên Google" },
+  "gallery": { "eyebrow": "Khách phương xa", "title": "Người quen từ khắp nơi.", "sub": "Khách và chủ quán — khoảnh khắc tại Cafe 39." },
+  "visit": { "eyebrow": "Ghé quán", "title": "Tìm cửa trước.", "directions": "Chỉ đường" },
+  "payment": { "eyebrow": "Thanh toán không tiền mặt", "title": "Quét để trả.", "sub": "VietQR, MoMo, ZaloPay — hoặc tiền mặt tại quầy." },
+  "hours": { "title": "Giờ Mở Cửa", "mf": "Thứ 2 – Thứ 6", "mf_time": "6:30 – 22:30", "sat": "Thứ 7", "sat_time": "7:00 – 23:00", "sun": "Chủ Nhật", "sun_time": "7:00 – 22:00" },
+  "opennow": { "open": "Đang mở", "closed": "Đã đóng", "opens_at": "Mở lúc", "closes_at": "Đóng lúc" },
+  "cta": { "call": "Gọi", "zalo": "Zalo", "order": "Đặt online", "call_long": "Gọi đặt", "zalo_long": "Chat Zalo" },
+  "promo": "Bạn hãy để lại đánh giá cho quán trên Google nhé — cảm ơn bạn rất nhiều! ⭐",
+  "footer": { "tag": "Pha bằng phin, sữa đặc, và đá.", "copy": "© Cafe 39. Mọi ly cà phê được giữ lại." }
+}

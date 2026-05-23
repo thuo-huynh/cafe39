@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "id": "coffee",
+      "icon": "☕",
+      "items": [
+        { "id": "c1", "price": 20, "img": "/images/coffee/cafe-den.jpg", "names": { "en": "Saigon Black Coffee", "vi": "Cà phê đen Sài Gòn", "zh": "西贡黑咖啡", "ja": "サイゴン ブラックコーヒー", "ko": "사이공 블랙커피", "fr": "Café noir de Saïgon", "ru": "Сайгонский чёрный кофе" }, "notes": { "en": "Bold, sweet, served over ice" } },
+        { "id": "c2", "price": 20, "img": "/images/coffee/cafe-sua.jpg", "names": { "en": "Saigon Milk Coffee", "vi": "Cà phê sữa Sài Gòn", "zh": "西贡炼乳咖啡", "ja": "サイゴン ミルクコーヒー", "ko": "사이공 연유커피", "fr": "Café au lait de Saïgon", "ru": "Сайгонский кофе с молоком" }, "notes": { "en": "Robusta + condensed milk" } },
+        { "id": "c3", "price": 25, "img": "/images/coffee/cafe-muoi.jpg", "names": { "en": "Salt Coffee", "vi": "Cà phê muối", "zh": "海盐咖啡", "ja": "ソルトコーヒー", "ko": "솔트 커피", "fr": "Café au sel", "ru": "Кофе с солью" }, "notes": { "en": "Hue specialty" }, "highlight": "House signature" },
+        { "id": "c4", "price": 25, "img": "/images/coffee/cafe-dua.jpg", "names": { "en": "Coconut Coffee", "vi": "Cà phê dừa", "zh": "椰子咖啡", "ja": "ココナッツコーヒー", "ko": "코코넛 커피", "fr": "Café à la noix de coco", "ru": "Кокосовый кофе" }, "highlight": "Local favorite" },
+        { "id": "c5", "price": 30, "img": "/images/coffee/cafe-bo.jpg", "names": { "en": "Avocado Coffee", "vi": "Cà phê bơ", "zh": "牛油果咖啡", "ja": "アボカドコーヒー", "ko": "아보카도 커피", "fr": "Café à l'avocat", "ru": "Кофе с авокадо" }, "notes": { "en": "Creamy, indulgent" }, "highlight": "Most ordered" },
+        { "id": "c6", "price": 20, "img": "/images/coffee/bac-xiu.jpg", "names": { "en": "Vietnamese white coffee", "vi": "Bạc xỉu", "zh": "白咖啡", "ja": "バクシウ", "ko": "박씨우", "fr": "Bạc xỉu", "ru": "Бакщиу" }, "notes": { "en": "Coffee with extra milk" } },
+        { "id": "c7", "price": 25, "img": "/images/coffee/cacao.jpg", "names": { "en": "Hot Cocoa", "vi": "Ca cao", "zh": "可可", "ja": "ココア", "ko": "코코아", "fr": "Cacao", "ru": "Какао" } }
+      ]
+    },
+    {
+      "id": "milktea",
+      "icon": "🧋",
+      "items": [
+        { "id": "m1", "price": 25, "img": "/images/milk-tea/truyen-thong.jpg", "names": { "en": "Traditional Milk Tea", "vi": "Trà sữa truyền thống", "zh": "传统奶茶", "ja": "トラディショナル ミルクティー", "ko": "전통 밀크티", "fr": "Thé au lait traditionnel", "ru": "Классический молочный чай" } },
+        { "id": "m2", "price": 25, "img": "/images/milk-tea/green-tea.jpg", "names": { "en": "Green Thai Milk Tea", "vi": "Trà sữa thái xanh", "zh": "泰式绿奶茶", "ja": "グリーン タイミルクティー", "ko": "그린 타이 밀크티", "fr": "Thé au lait thaï vert", "ru": "Зелёный тайский молочный чай" } },
+        { "id": "m3", "price": 25, "img": "/images/milk-tea/red-tea.jpg", "names": { "en": "Red Thai Milk Tea", "vi": "Trà sữa thái đỏ", "zh": "泰式红奶茶", "ja": "レッド タイミルクティー", "ko": "레드 타이 밀크티", "fr": "Thé au lait thaï rouge", "ru": "Красный тайский молочный чай" } },
+        { "id": "m4", "price": 25, "img": "/images/milk-tea/taro.jpg", "names": { "en": "Taro Milk Tea", "vi": "Trà sữa khoai môn", "zh": "香芋奶茶", "ja": "タロミルクティー", "ko": "타로 밀크티", "fr": "Thé au lait au taro", "ru": "Молочный чай с таро" } },
+        { "id": "m5", "price": 25, "img": "/images/milk-tea/tra-xanh.jpg", "names": { "en": "Matcha Milk Tea", "vi": "Trà sữa matcha", "zh": "抹茶奶茶", "ja": "抹茶ミルクティー", "ko": "말차 밀크티", "fr": "Thé au lait matcha", "ru": "Молочный чай матча" } },
+        { "id": "m6", "price": 25, "img": "/images/milk-tea/chocolate.jpg", "names": { "en": "Chocolate Milk Tea", "vi": "Trà sữa chocolate", "zh": "巧克力奶茶", "ja": "チョコレートミルクティー", "ko": "초콜릿 밀크티", "fr": "Thé au lait chocolat", "ru": "Шоколадный молочный чай" } },
+        { "id": "m7", "price": 25, "img": "/images/milk-tea/dau.jpg", "names": { "en": "Strawberry Milk Tea", "vi": "Trà sữa dâu", "zh": "草莓奶茶", "ja": "ストロベリーミルクティー", "ko": "딸기 밀크티", "fr": "Thé au lait à la fraise", "ru": "Молочный чай с клубникой" } }
+      ]
+    },
+    {
+      "id": "smoothie",
+      "icon": "🥤",
+      "items": [
+        { "id": "s1", "price": 30, "img": "/images/must-try/avocado.jpg", "badge": "★", "highlight": "Must try", "names": { "en": "Avocado Smoothie", "vi": "Sinh tố bơ", "zh": "牛油果冰沙", "ja": "アボカドスムージー", "ko": "아보카도 스무디", "fr": "Smoothie à l'avocat", "ru": "Смузи из авокадо" } },
+        { "id": "s2", "price": 30, "img": "/images/must-try/mango.jpg", "badge": "★", "highlight": "Must try", "names": { "en": "Mango Smoothie", "vi": "Sinh tố xoài", "zh": "芒果冰沙", "ja": "マンゴースムージー", "ko": "망고 스무디", "fr": "Smoothie à la mangue", "ru": "Манговый смузи" } },
+        { "id": "s3", "price": 25, "img": "/images/must-try/milo-dam.jpg", "names": { "en": "Crushed Milo", "vi": "Milo dầm đá", "zh": "美禄碎冰", "ja": "クラッシュドミロ", "ko": "크러쉬드 밀로", "fr": "Milo glacé", "ru": "Майло со льдом" } },
+        { "id": "s4", "price": 25, "img": "/images/must-try/da-me-1.jpg", "names": { "en": "Tamarind & Arenga", "vi": "Đá me hạt đác", "zh": "罗望子糖棕", "ja": "タマリンド アレンガ", "ko": "타마린드 아렝가", "fr": "Tamarin & arenga", "ru": "Тамаринд с пальмовыми семенами" } },
+        { "id": "s5", "price": 25, "img": "/images/must-try/nha-dam.jpg", "names": { "en": "Aloe Chia Cooler", "vi": "Nha đam hạt chia", "zh": "芦荟奇亚籽", "ja": "アロエ チア", "ko": "알로에 치아", "fr": "Aloès & graines de chia", "ru": "Алоэ с семенами чиа" } },
+        { "id": "s6", "price": 25, "img": "/images/must-try/matcha.jpg", "highlight": "New", "names": { "en": "Matcha Latte", "vi": "Matcha Latte", "zh": "抹茶拿铁", "ja": "抹茶ラテ", "ko": "말차 라떼", "fr": "Matcha Latte", "ru": "Матча латте" } }
+      ]
+    },
+    {
+      "id": "juice",
+      "icon": "🍊",
+      "items": [
+        { "id": "j1", "price": 20, "img": "/images/juice/dua.jpg", "names": { "en": "Pineapple Juice", "vi": "Nước ép dứa", "zh": "菠萝汁", "ja": "パイナップルジュース", "ko": "파인애플 주스", "fr": "Jus d'ananas", "ru": "Ананасовый сок" } },
+        { "id": "j2", "price": 20, "img": "/images/juice/cam.jpg", "names": { "en": "Orange Juice", "vi": "Nước ép cam", "zh": "橙汁", "ja": "オレンジジュース", "ko": "오렌지 주스", "fr": "Jus d'orange", "ru": "Апельсиновый сок" } },
+        { "id": "j3", "price": 20, "img": "/images/juice/dua-hau.jpg", "names": { "en": "Watermelon Juice", "vi": "Nước ép dưa hấu", "zh": "西瓜汁", "ja": "スイカジュース", "ko": "수박 주스", "fr": "Jus de pastèque", "ru": "Арбузный сок" } },
+        { "id": "j5", "price": 20, "img": "/images/juice/day.jpg", "names": { "en": "Passion Fruit", "vi": "Nước chanh dây", "zh": "百香果汁", "ja": "パッションフルーツ", "ko": "패션후르츠", "fr": "Fruit de la passion", "ru": "Маракуйя" } },
+        { "id": "j6", "price": 20, "img": "/images/juice/chanh.jpg", "names": { "en": "Lemon Juice", "vi": "Nước chanh", "zh": "柠檬汁", "ja": "レモンジュース", "ko": "레몬 주스", "fr": "Citronnade", "ru": "Лимонный сок" } }
+      ]
+    },
+    {
+      "id": "tea",
+      "icon": "🍵",
+      "items": [
+        { "id": "t1", "price": 25, "img": "/images/tea/tra-gung.jpg", "names": { "en": "Ginger Tea", "vi": "Trà gừng", "zh": "姜茶", "ja": "ジンジャーティー", "ko": "생강차", "fr": "Thé au gingembre", "ru": "Чай с имбирём" } },
+        { "id": "t2", "price": 25, "img": "/images/tea/tra-tac.jpg", "names": { "en": "Kumquat Tea", "vi": "Trà tắc", "zh": "金桔茶", "ja": "金柑茶", "ko": "금귤차", "fr": "Thé au kumquat", "ru": "Кумкватовый чай" } },
+        { "id": "t3", "price": 25, "img": "/images/tea/tra-chanh.jpg", "names": { "en": "Lemon Tea", "vi": "Trà chanh", "zh": "柠檬茶", "ja": "レモンティー", "ko": "레몬티", "fr": "Thé au citron", "ru": "Чай с лимоном" } },
+        { "id": "t5", "price": 25, "img": "/images/tea/tra-mang-cau.jpg", "names": { "en": "Soursop Tea", "vi": "Trà mãng cầu", "zh": "刺果番荔枝茶", "ja": "サワーソップティー", "ko": "사워솝 차", "fr": "Thé au corossol", "ru": "Чай из соусепа" } },
+        { "id": "t6", "price": 25, "img": "/images/tea/tra-dao-cam-xa.jpg", "names": { "en": "Peach Lemongrass", "vi": "Trà đào cam sả", "zh": "桃子柠檬草茶", "ja": "ピーチレモングラス", "ko": "복숭아 레몬그라스", "fr": "Pêche & citronnelle", "ru": "Персик с лемонграссом" } },
+        { "id": "t7", "price": 25, "img": "/images/tea/tra-vai.jpg", "names": { "en": "Lychee Tea", "vi": "Trà vải", "zh": "荔枝茶", "ja": "ライチティー", "ko": "리치 차", "fr": "Thé au litchi", "ru": "Чай с личи" } }
+      ]
+    }
+  ]
+}

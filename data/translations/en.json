@@ -1,0 +1,44 @@
+{
+  "nav": { "menu": "Menu", "about": "About", "reviews": "Reviews", "visit": "Visit", "gallery": "Gallery", "hours": "Hours", "language": "Language" },
+  "hero": {
+    "tape": "Phin Brew · Real Vietnamese Coffee",
+    "eyebrow": "A Vietnamese coffee shop · since 2019",
+    "title_line1": "The best coffee",
+    "title_line2": "in the neighborhood.",
+    "sub": "An honest Vietnamese coffee shop. Hand-poured phin one cup at a time, real fruit in every smoothie, and the warmest welcome on the block. Locals call us their morning routine.",
+    "cta": "View the menu",
+    "cta2": "Find us",
+    "stamp_rating": "4.9 / 5",
+    "stamp_count": "100+ reviews",
+    "signature": "House signature"
+  },
+  "categories": { "coffee": "Coffee", "milktea": "Milk Tea", "smoothie": "Smoothies", "juice": "Juice", "tea": "Tea" },
+  "menu": { "eyebrow": "The Menu", "title": "Made fresh, all day.", "items_suffix": "items", "currency": "₫", "must_try": "Must Try" },
+  "features": { "eyebrow": "Loved by locals", "picks_suffix": "picks" },
+  "search": { "placeholder": "Search the menu…", "no_results": "Nothing matches that — try another word.", "clear_label": "Clear search" },
+  "about": {
+    "eyebrow": "Our Story",
+    "title_line1": "Twenty years of pulling phin,",
+    "title_line2": "pouring condensed milk, and",
+    "title_line3": "learning everyone's order.",
+    "body": "Cafe bà Chín opened as a single iron table on the sidewalk. Today we still hand-pour the phin, still keep the door open from sunrise, and still know your usual after the second visit. Every morning starts with an iced milk coffee and something soft playing in the background — that's the routine locals keep coming back for.",
+    "quote_role": "regular"
+  },
+  "stories": { "eyebrow": "Lately, around the shop" },
+  "owner": {
+    "eyebrow": "Meet the owner",
+    "title": "Pulled by hand. Served by name.",
+    "body": "Twenty years of early mornings — opening before the neighborhood wakes up. What started as a single iron table on the sidewalk became the most-loved spot on the block, drawing regulars from near and far. Hand-pour the phin, Saigon milk coffee the family way. Guests keep coming back and spreading the word. I still open early every day — and learn one more name.",
+    "signoff": "— Owner",
+    "stamp": "EST. 2006"
+  },
+  "reviews": { "eyebrow": "Word of mouth", "title": "What guests say.", "more": "Read more on Google" },
+  "gallery": { "eyebrow": "Friends of the house", "title": "Regulars from everywhere.", "sub": "Customers and the owner — moments from the shop." },
+  "visit": { "eyebrow": "Stop by", "title": "Find the front door.", "directions": "Get directions" },
+  "payment": { "eyebrow": "Cashless welcome", "title": "Scan to pay.", "sub": "VietQR, MoMo, ZaloPay — or cash at the counter." },
+  "hours": { "title": "Hours", "mf": "Mon – Fri", "mf_time": "6:30 – 22:30", "sat": "Saturday", "sat_time": "7:00 – 23:00", "sun": "Sunday", "sun_time": "7:00 – 22:00" },
+  "opennow": { "open": "Open now", "closed": "Closed", "opens_at": "Opens at", "closes_at": "Closes at" },
+  "cta": { "call": "Call", "zalo": "Zalo", "order": "Order online", "call_long": "Call to order", "zalo_long": "Chat on Zalo" },
+  "promo": "Enjoying your visit? Please leave us a review on Google — thank you so much! ⭐",
+  "footer": { "tag": "Made with phin, condensed milk, and ice.", "copy": "© Cafe 39. All cups reserved." }
+}
